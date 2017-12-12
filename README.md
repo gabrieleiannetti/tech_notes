@@ -1,2 +1,1 @@
-# tech_notes
-Technical Notes
+# Collection of Technical Notes
