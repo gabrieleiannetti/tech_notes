@@ -10,7 +10,7 @@ Location of Source Repository List:
 /etc/apt/sources.list
 ```
 
-Content of the List:
+Content of the Source Repository List:
 
 ```
 deb  http://deb.debian.org/debian stretch main contrib non-free
