@@ -57,4 +57,4 @@ Install the Appropriate Linux-Headers and Kernel Module Packages:
 apt install linux-headers-$(uname -r|sed 's/[^-]*-[^-]*-//') nvidia-driver
 ```
 
-Finnally do a reboot.
+Finnally do a reboot of the maschine.
