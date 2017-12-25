@@ -22,3 +22,9 @@
 * Themes
 * Windows Defender
 * Windows Firewall
+
+## Links for Optimization of SSD
+
+* https://www.disk-partition.com/kb/tips-ssd-optimization-windows7-1.html
+* https://www.disk-partition.com/kb/tips-ssd-optimization-windows7-2.html
+* https://www.disk-partition.com/kb/tips-ssd-optimization-windows7-3.html
