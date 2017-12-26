@@ -8,7 +8,18 @@
 
 URL: https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/
 
-## Installation of Additonal Software
+## Installation of Spotify
+
+URL: https://fedoraproject.org/wiki/Spotify
+
+_Worked_:
+
+```
+dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
+dnf install spotify
+```
+
+## Installation of Misc Software
 
 ```sudo dnf install```
 
