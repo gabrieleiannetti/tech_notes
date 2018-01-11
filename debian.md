@@ -36,6 +36,15 @@ apt-get install adduser
 adduser gabriele sudo
 ```
 
+## Setting User Access for All Applications
+
+_cat /etc/sudoers_
+
+```
+# User privilege specification
+root	 ALL=(ALL:ALL) ALL
+gabriele ALL=(ALL:ALL) ALL
+```
 
 ## Installing NVIDIA Geforce 660GTX Graphics Card
 
