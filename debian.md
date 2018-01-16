@@ -48,7 +48,7 @@ root	 ALL=(ALL:ALL) ALL
 gabriele ALL=(ALL:ALL) ALL
 ```
 
-## Installing NVIDIA Geforce 660GTX Graphics Card
+## Installing NVIDIA Proprietary Graphics Card Driver
 
 Notes taken from URL:
 _https://wiki.debian.org/NvidiaGraphicsDrivers_
