@@ -23,6 +23,11 @@ deb http://security.debian.org/ stretch/updates main contrib non-free
 deb-src http://security.debian.org/ stretch/updates main contrib non-free
 ```
 
+Adding Backports for Strech:
+```
+deb http://ftp.debian.org/debian stretch-backports main
+```
+
 Update Repository References: 
 ```
 apt-get update
