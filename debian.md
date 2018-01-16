@@ -28,15 +28,12 @@ Update Repository References:
 apt-get update
 ```
 
-## Adding User to Sudo Group
+## Adding User to Sudoers
 
+First install required package:
 ```
 apt-get install sudo
-apt-get install adduser
-adduser gabriele sudo
 ```
-
-## Setting User Access for All Applications
 
 _cat /etc/sudoers_
 
