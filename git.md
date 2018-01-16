@@ -48,3 +48,9 @@ Display all references that point to each commit:
 git log --oneline
 ```
 
+## Push
+
+Push branch to remote origin
+```
+git push -u origin <branch>
+```
