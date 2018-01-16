@@ -69,3 +69,13 @@ apt install linux-headers-$(uname -r|sed 's/[^-]*-[^-]*-//') nvidia-driver
 ```
 
 Finnally do a reboot of the maschine.
+
+## Installing Packages from Backport
+
+Since installing packages from backports is deactivated by default run the following command to install a package from the backport:
+```
+apt-get -t stretch-backports install "package"
+```
+
+List of all available packages from backport:
+_https://packages.debian.org/stretch-backports/allpackages_
