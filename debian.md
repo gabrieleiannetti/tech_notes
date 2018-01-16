@@ -72,7 +72,8 @@ Finnally do a reboot of the maschine.
 
 ## Installing Packages from Backport
 
-Since installing packages from backports is deactivated by default run the following command to install a package from the backport:
+Installation of packages from backport is deactivated by default.
+To install packages manually do:
 ```
 apt-get -t stretch-backports install "package"
 ```
