@@ -18,11 +18,3 @@ _Worked_:
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
 dnf install spotify
 ```
-
-## Installation of Misc Software
-
-```sudo dnf install```
-
-* gnome-tweak-tool
-* htop
-* keepassx
