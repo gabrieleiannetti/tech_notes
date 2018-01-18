@@ -1,6 +1,4 @@
-# My Private Desktop Installation
-
-OS: Debian Stretch
+# Debian Stretch Installation
 
 ## Package Repositories
 
