@@ -1,4 +1,4 @@
-# Fedora 27 Workstation Installation
+# Fedora 27 Installation
 
 ## Upgrade System
 
@@ -12,7 +12,7 @@ URL: https://www.if-not-true-then-false.com/2015/fedora-nvidia-guide/
 
 URL: https://fedoraproject.org/wiki/Spotify
 
-_Worked_:
+_Used_:
 
 ```
 dnf config-manager --add-repo=http://negativo17.org/repos/fedora-spotify.repo
