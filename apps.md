@@ -10,4 +10,4 @@
 * keepassx
 
 ## Shell
-* zsh
+* zsh + https://github.com/robbyrussell/oh-my-zsh
