@@ -23,4 +23,16 @@ Icon=/home/iannetti/apps/firefox/browser/icons/mozicon128.png
 Categories=Network;
 ```
 
+### Pycharm Icon
+```
+[Desktop Entry]
+Name=Pycharm
+Comment=Python Pycharm IDE
+Keywords=python;development;ide
+Exec=/home/iannetti/apps/pycharm-community/bin/pycharm.sh
+Terminal=false
+Type=Application
+Icon=/home/iannetti/apps/pycharm-community/bin/pycharm.png
+Categories=Development;
 
+```

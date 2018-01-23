@@ -54,3 +54,26 @@ Push branch to remote origin
 ```
 git push -u origin <branch>
 ```
+
+## Tag
+
+Create a new tag with version number and a message:
+```
+git tag -a 1.0 -m "First stable release."
+```
+
+Push tag to remote repository:
+```
+git push origin 1.0
+```
+
+Delete local tag:
+```
+git tag -d 1.0
+```
+
+Delete a remote tag:
+```
+git push origin :1.0
+```
+
