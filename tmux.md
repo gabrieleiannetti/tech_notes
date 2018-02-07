@@ -6,7 +6,7 @@ In the following with __prefix__ the default key combinatiob of '__ctrl + b__' i
 
 ## Copy and Paste
 
-Instructions are originally taken from a post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
+Instructions are originally taken from this post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
 
 1. Enter copy mode: __prefix__ + __[__ .
 2. Navigate to start position with arrow keys.
