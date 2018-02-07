@@ -16,12 +16,5 @@ Instructions are originally taken from this post on [unix.stackexchange.com](htt
 2. Navigate to start position with arrow keys.
 3. Switch layout: __prefix__ + __space__ key.
 4. Navigate to end position with arrow keys.
-5. Copy text into clipboard: _ctrl_ + _w_.
-6. For pasting press _ctrl_ + _]_ then.
-
-## Config File
-
-"Set background color of status bar
-set-option -g status-bg yellow
 5. Copy text into clipboard: __ctrl__ + __w__.
 6. For pasting press __ctrl__ + __]__ then.
