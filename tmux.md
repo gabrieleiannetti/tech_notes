@@ -2,15 +2,19 @@
 
 Best practices and control commands.
 
-In the following with _prefix_ the default key combinatiob of 'ctrl + b' is meant.
+In the following with __prefix__ the default key combinatiob of __ctrl + b__ is meant.
+
+## Listining of Key Bindings
+
+__tmux list-keys__ or __prefix + ?__ 
 
 ## Copy and Paste
 
-Instructions taken from [here](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
+Instructions are originally taken from this post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
 
-1. Enter copy mode: _prefix_ + _[_ 
+1. Enter copy mode: __prefix__ + __[__.
 2. Navigate to start position with arrow keys.
-3. Switch layout: _prefix_ + _space_ key.
+3. Switch layout: __prefix__ + __space__ key.
 4. Navigate to end position with arrow keys.
 5. Copy text into clipboard: _ctrl_ + _w_.
 6. For pasting press _ctrl_ + _]_ then.
@@ -19,3 +23,5 @@ Instructions taken from [here](https://unix.stackexchange.com/questions/58763/co
 
 "Set background color of status bar
 set-option -g status-bg yellow
+5. Copy text into clipboard: __ctrl__ + __w__.
+6. For pasting press __ctrl__ + __]__ then.
