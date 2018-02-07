@@ -6,7 +6,7 @@ In the following with __prefix__ the default key combinatiob of __ctrl + b__ is 
 
 ## Listining of Key Bindings
 
-tmux list-keys
+__tmux list-keys__ or __prefix + ?__ 
 
 ## Copy and Paste
 
