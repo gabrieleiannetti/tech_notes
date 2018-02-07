@@ -14,3 +14,8 @@ Instructions taken from [here](https://unix.stackexchange.com/questions/58763/co
 4. Navigate to end position with arrow keys.
 5. Copy text into clipboard: _ctrl_ + _w_.
 6. For pasting press _ctrl_ + _]_ then.
+
+## Config File
+
+"Set background color of status bar
+set-option -g status-bg yellow
