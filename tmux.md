@@ -2,13 +2,13 @@
 
 Best practices and control commands.
 
-In the following with __prefix__ the default key combinatiob of '__ctrl + b__' is meant.
+In the following with __prefix__ the default key combinatiob of __ctrl + b__ is meant.
 
 ## Copy and Paste
 
 Instructions are originally taken from this post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
 
-1. Enter copy mode: __prefix__ + __[__ .
+1. Enter copy mode: __prefix__ + __[__.
 2. Navigate to start position with arrow keys.
 3. Switch layout: __prefix__ + __space__ key.
 4. Navigate to end position with arrow keys.
