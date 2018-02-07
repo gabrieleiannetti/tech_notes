@@ -4,6 +4,10 @@ Best practices and control commands.
 
 In the following with __prefix__ the default key combinatiob of __ctrl + b__ is meant.
 
+## Listining of Key Bindings
+
+tmux list-keys
+
 ## Copy and Paste
 
 Instructions are originally taken from this post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
