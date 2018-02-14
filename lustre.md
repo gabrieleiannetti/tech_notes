@@ -1,19 +1,24 @@
 # Lustre Notes
 
+## Working with Lustre Mount Points
+
+Mount Lustre OST:  
+`mount -t lustre osspool2/ost2 /srv/OST2`
+
 ## Installing the Lustre client on Kronos
 
 Unmounting the Lustre mount point before installation:  
 `umount -lf /lustre/nyx`
 
 Update package repository:  
-`apt update`  
+`apt update`
 
 Search pakets for Lustre:  
-`apt search lustre`  
+`apt search lustre`
 
 Query APT cache for Lustre client modules.
 We are looking for the Lustre client in version 2.10 located currently in the jessie-testing repository:  
-`apt-cache policy lustre-client-modules-3.16.0-4-amd64`  
+`apt-cache policy lustre-client-modules-3.16.0-4-amd64`
 
 lustre-client-modules-3.16.0-4-amd64:  
 ```
