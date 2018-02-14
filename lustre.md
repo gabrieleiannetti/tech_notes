@@ -15,7 +15,7 @@ Query APT cache for Lustre client modules.
 We are looking for the Lustre client in version 2.10 located currently in the jessie-testing repository:  
 `apt-cache policy lustre-client-modules-3.16.0-4-amd64`  
 
-lustre-client-modules-3.16.0-4-amd64:
+lustre-client-modules-3.16.0-4-amd64:  
 ```
   Installed: 2.10.0-38-g86421e7-dirty-1
   Candidate: 2.10.0-38-g86421e7-dirty-1
@@ -33,12 +33,12 @@ Install Lustre client modules from jessie-testing repository:
 Install Lustre client utils from jessie-testing repository:  
 `apt install -t jessie-testing lustre-client-utils`
 
-List installed lustre packages:
+List installed lustre packages:  
 `dpkg -l | grep lustre`
 
 ## Changelog Related
 
-Checking set changelogs on a MDT:
+Checking set changelogs on a MDT:  
 `lctl get_param mdd.*.changelog_mask`
 
 Setting the changelog mask in Lustre version 2.5:  
@@ -46,5 +46,5 @@ Setting the changelog mask in Lustre version 2.5:
 
 ## Working with Target Disk Information
 
-Viewing Lustre target disk information of an OST:
+Viewing Lustre target disk information of an OST:  
 `tunefs.lustre --dryrun osspool2/ost2`
