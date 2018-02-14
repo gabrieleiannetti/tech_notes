@@ -33,13 +33,18 @@ Install Lustre client modules from jessie-testing repository:
 Install Lustre client utils from jessie-testing repository:  
 `apt install -t jessie-testing lustre-client-utils`
 
-List installed lustre packages:  
+List installed lustre packages:
 `dpkg -l | grep lustre`
 
 ## Changelog Related
 
-Checking set changelogs on a MDT:  
+Checking set changelogs on a MDT:
 `lctl get_param mdd.*.changelog_mask`
 
 Setting the changelog mask in Lustre version 2.5:  
 `lctl set_param mdd.*.changelog_mask "MARK CREAT MKDIR HLINK SLINK MKNOD UNLNK RMDIR RENME RNMTO OPEN CLOSE LYOUT TRUNC SATTR XATTR HSM MTIME CTIME"`
+
+## Working with Target Disk Information
+
+Viewing Lustre target disk information of an OST:
+`tunefs.lustre --dryrun osspool2/ost2`
