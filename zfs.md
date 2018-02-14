@@ -1,6 +1,6 @@
 # OpenZFS
 
-## Working with ZPools
+## Mounting ZPools
 
 Make ZPool mountable:  
 `zfs set canmount=on osspool0/ost0`
