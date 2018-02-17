@@ -16,7 +16,6 @@
 * Internet Connection Sharing
 * Net.Tcp Port Sharing Service
 * Offline Files
-* Print Spooler
 * Routing and Remote Access
 * TCP/IP NetBIOS Helper
 * Themes
