@@ -1,4 +1,4 @@
-# How To's
+# Mount
 
 ## Mounting a USB Stick
 
