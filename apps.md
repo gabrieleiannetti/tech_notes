@@ -2,6 +2,7 @@
 
 ## Editor
 * neovim
+* emacs
 
 ## Gnome
 * gnome-tweak-tool
@@ -14,7 +15,7 @@
 * keepassx
 
 ## Shell
-* zsh + https://github.com/robbyrussell/oh-my-zsh
+* zsh
 
 ## Terminal Multiplexer
 * tmux
