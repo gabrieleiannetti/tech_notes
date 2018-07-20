@@ -7,9 +7,9 @@
 User specific location: ~/.local/share/applications/  
 System-wide location: /usr/share/applications/  
 
-### Firefox Icon
+### Firefox
 
-cat firefox.desktop
+firefox.desktop
 
 ```
 [Desktop Entry]
@@ -23,7 +23,10 @@ Icon=/home/iannetti/apps/firefox/browser/icons/mozicon128.png
 Categories=Network;
 ```
 
-### Pycharm Icon
+### Pycharm
+
+pycharm.desktop
+
 ```
 [Desktop Entry]
 Name=Pycharm
@@ -35,4 +38,22 @@ Type=Application
 Icon=/home/iannetti/apps/pycharm-community/bin/pycharm.png
 Categories=Development;
 
+```
+
+### Freemind
+
+freemind.desktop  
+
+_The freemind icon file has been extracted from the freemindbrowser.jar application file._  
+
+```
+[Desktop Entry]
+Name=Freemind
+Comment=Freemind
+Keywords=freemind;mindmap
+Exec=/home/iannetti/apps/freemind-bin-1.0.1/freemind.sh
+Terminal=false
+Type=Application
+Icon=/home/iannetti/apps/freemind-bin-1.0.1/images/76812-freemind_v0.4.png
+Categories=Utility;
 ```
