@@ -44,8 +44,6 @@ Categories=Development;
 
 freemind.desktop  
 
-_The freemind icon file has been extracted from the freemindbrowser.jar application file._  
-
 ```
 [Desktop Entry]
 Name=Freemind
@@ -57,3 +55,5 @@ Type=Application
 Icon=/home/iannetti/apps/freemind-bin-1.0.1/images/76812-freemind_v0.4.png
 Categories=Utility;
 ```
+
+_The freemind icon file has been extracted from the freemindbrowser.jar application file._ 
