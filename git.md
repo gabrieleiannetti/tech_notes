@@ -48,10 +48,10 @@ Display all references that point to each commit:
 git log --oneline
 ```
 
-Search in commit messages for a given string and print the proper log messages:
+Search in commit messages for a given string and print the proper log messages with the patch what changed:
 
 ```
-git log -S 'string' --source --all
+git log -S 'string' --source --all --patch
 ```
 
 ## Push
