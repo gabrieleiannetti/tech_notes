@@ -48,6 +48,12 @@ Display all references that point to each commit:
 git log --oneline
 ```
 
+Search in commit messages for a given string and print the proper log messages:
+
+```
+git log -S 'string' --source --all
+```
+
 ## Push
 
 Push branch to remote origin
