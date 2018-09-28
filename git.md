@@ -29,6 +29,13 @@ _cat ~/.gitconfig_
 	editor = vi
 ```
 
+## Diff
+
+Show differences of files in stagging area:
+```
+git diff --cached
+```
+
 ## Log
 
 Print out the ref names of any commits that are shown:
