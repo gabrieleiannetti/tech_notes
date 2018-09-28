@@ -4,7 +4,7 @@
 
 ### Icon Locations
 
-User specific location: ~/.local/share/applications/  
+User specific location: ~/.local/share/applications/
 System-wide location: /usr/share/applications/  
 
 ### Firefox
@@ -19,7 +19,7 @@ Keywords=firefox;browser
 Exec=/home/iannetti/apps/firefox/firefox
 Terminal=false
 Type=Application
-Icon=/home/iannetti/apps/firefox/browser/icons/mozicon128.png
+Icon=/home/iannetti/apps/firefox/browser/chrome/icons/default/default128.png
 Categories=Network;
 ```
 
