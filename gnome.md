@@ -4,7 +4,7 @@
 
 ### Icon Locations
 
-User specific location: ~/.local/share/applications/
+User specific location: ~/.local/share/applications/  
 System-wide location: /usr/share/applications/  
 
 ### Firefox
