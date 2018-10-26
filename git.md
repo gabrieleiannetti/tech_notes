@@ -68,6 +68,18 @@ Push branch to remote origin
 git push -u origin <branch>
 ```
 
+## Branch
+
+Show already merged branches into master:
+```
+git branch --merged master
+```
+
+Show all branches not merged into master:
+```
+git branch --no-merged master
+```
+
 ## Tag
 
 Create a new tag with version number and a message:
