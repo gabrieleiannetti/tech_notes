@@ -58,8 +58,10 @@ Search in commit messages for a given string and print the proper log messages:
 git log -S 'string'
 ```
 
-> Hint: Add parameter --patch/-p to git log to get more detailed information what changed within a commit.
-
+Shows the history including change diffs of a file:
+```
+git log -p -- file
+```
 
 ## Push
 
