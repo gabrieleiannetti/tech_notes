@@ -1,8 +1,7 @@
 # Applications
 
 ## Editor
-* neovim
-* emacs
+* vim/neovim
 
 ## Gnome
 * gnome-tweak-tool
@@ -11,7 +10,6 @@
 * htop
 
 ## Security
-* firejail
 * keepassx
 
 ## Shell
