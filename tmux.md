@@ -16,9 +16,9 @@ __tmux list-keys__ or __prefix + ?__
 
 Instructions are originally taken from this post on [unix.stackexchange.com](https://unix.stackexchange.com/questions/58763/copy-text-from-one-tmux-pane-to-another-using-vim).
 
-1. Enter copy mode: __prefix__ + __[__.
-2. Navigate to start position with arrow keys.
-3. Switch layout: __prefix__ + __space__ key.
-4. Navigate to end position with arrow keys.
-5. Copy text into clipboard: __ctrl__ + __w__.
-6. For pasting press __ctrl__ + __]__ then.
+1. Enter copy/view mode: __prefix + [__ 
+1. Navigate to start position with arrow keys.
+1. Start text selection: __ctrl + space__
+1. Navigate to end position with arrow keys.
+1. Copy text into clipboard: __ctrl__ + __w__
+1. For pasting press: __prefix__ + __]__
