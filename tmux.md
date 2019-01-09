@@ -18,3 +18,7 @@ Instructions are originally taken from this post on [unix.stackexchange.com](htt
 4. Navigate to end position with arrow keys.
 5. Copy text into clipboard: __ctrl__ + __w__.
 6. For pasting press __ctrl__ + __]__ then.
+
+## Free Book to Read
+
+https://leanpub.com/the-tao-of-tmux/read
