@@ -4,6 +4,10 @@
 
 https://leanpub.com/the-tao-of-tmux/read
 
+## Cheat Sheet
+
+https://leanpub.com/the-tao-of-tmux/read#appendix-cheatsheets
+
 ## Best Pactices and Cntrol Commands
 
 In the following with __prefix__ the default key combinatiob of __ctrl + b__ is meant.
