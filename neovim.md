@@ -2,16 +2,16 @@
 
 ## Building from Sources
 
-1. sudo apt-get build-dep neovim
-1. git clone https://github.com/neovim/neovim
-1. cd neovim
-1. git branch -a
-1. git checkout release-0.3
-1. mkdir BUILD && cd BUILD
-1. cmake ..
-1. make
-1. sudo make install
-1. which nvim
+1. Automatically install all dependencies: `sudo apt-get build-dep neovim`
+1. Clone repository: `git clone https://github.com/neovim/neovim`
+1. Change directory: `cd neovim`
+1. Show all tags: `git tag`
+1. Checkout stable release: `git checkout stable`
+1. Create/Change to BUILD directory: `mkdir BUILD && cd BUILD`
+1. Configure: `cmake ..`
+1. Build: `make`
+1. Install: `sudo make install`
+1. Check executable: `which nvim`
 
 ## Config
 
