@@ -17,11 +17,11 @@
 
 _~/.config/nvim/init.vim_
 
-``
+```
 " Show line number
 set number
 
-"Show current line"
+" Show current line
 set cursorline 
 
 " Use 4 spaces for tabs
@@ -29,4 +29,4 @@ set tabstop=4 softtabstop=4 shiftwidth=4
 
 " Display indentation guides
 set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×
-``
+```
