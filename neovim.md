@@ -22,7 +22,10 @@ _~/.config/nvim/init.vim_
 set number
 
 " Show current line
-set cursorline 
+set cursorline
+
+" Highlight search matches
+set hlsearch
 
 " Use 4 spaces for tabs
 set tabstop=4 softtabstop=4 shiftwidth=4
