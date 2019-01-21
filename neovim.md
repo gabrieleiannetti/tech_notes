@@ -15,7 +15,7 @@
 
 ## Config
 
-_~/.config/nvim/init.vim_
+__~/.config/nvim/init.vim__
 
 ```
 " Show line number
