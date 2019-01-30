@@ -31,5 +31,5 @@ set hlsearch
 set tabstop=4 softtabstop=4 shiftwidth=4
 
 " Display indentation guides
-set.list.listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
+set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
 ```
