@@ -2,11 +2,7 @@
 
 ## Remove Annoying Panels
 
-To get rid of the annoying panels remove the panel plugin package from the system:
-
-Debian: `sudo apt-get purge xfce4-panel`
-
-_If no reboot should be done, kill the running panel process: 'xfce4-panel'_
+To get rid of the annoying panels remove the following package from the system: `xfce4-panel`.
 
 ## List of Most Useful Shortcuts
 
