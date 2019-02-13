@@ -2,7 +2,7 @@
 
 ## Remove Annoying Panels
 
-To get rid of the annoying panels remove the `xfce4-panel` package from the system.
+To get rid of the annoying panels remove the _xfce4-panel_ package from the system.
 
 ## List of Most Useful Shortcuts
 
