@@ -13,6 +13,8 @@
 1. Install: `sudo make install`
 1. Check executable: `which nvim`
 
+_Step 1 is Debian specific but comfortable for resolving all required project dependencies at once._
+
 ## Config
 
 __~/.config/nvim/init.vim__
