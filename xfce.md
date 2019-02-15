@@ -1,9 +1,5 @@
 # XFCE
 
-## Remove Annoying Panels
-
-To get rid of the annoying panels remove the _xfce4-panel_ package from the system.
-
 ## List of Most Useful Shortcuts
 
 * `<ALT> + <F2>`: Start prompt to run command.
