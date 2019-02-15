@@ -1,15 +1,19 @@
 # Applications
 
 ## Editor
-* vim/neovim
+* neovim
 
 ## Gnome
 * gnome-tweak-tool
+
+## Mail
+* Thunderbird
 
 ## Monitoring
 * htop
 
 ## Security
+* cryptsetup
 * keepassx
 
 ## Shell
