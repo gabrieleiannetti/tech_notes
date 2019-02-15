@@ -17,7 +17,7 @@
 * keepassx
 
 ## Shell
-* zsh
+* zsh/oh-my-zsh
 
 ## Terminal Multiplexer
 * tmux
