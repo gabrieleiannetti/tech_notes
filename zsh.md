@@ -17,11 +17,11 @@ Powerline Fonts project page on [GitHub](https://github.com/powerline/fonts).
 
 ## Config
 
-``
+```
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="agnoster"
 
 alias vi="nvim"
 alias vim="nvim"
-``
+```
