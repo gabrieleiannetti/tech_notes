@@ -1,5 +1,18 @@
 # XFCE
 
+## Deactivate Panel
+
+Removeing the xfce-panel package will break the system.
+Therefore it is recommanded to just deactivate the panel on each system startup:
+
+e.g. create/edit: `~/.bashrc`
+
+Command to close the panel:
+
+`xfce4-panel --quit`
+
+
+
 ## List of Most Useful Shortcuts
 
 * `<ALT> + <F2>`: Start prompt to run command.
