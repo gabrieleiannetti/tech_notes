@@ -26,4 +26,7 @@ ZSH_THEME="agnoster"
 
 alias vi="nvim"
 alias vim="nvim"
+
+# Create a TMUX session on startup
+if [ "$TMUX" = "" ]; then tmux; fi
 ```
