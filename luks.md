@@ -2,7 +2,7 @@
 
 Install the following package: `cryptsetup`
 
-# Mounting an Encrypted Device
+# Mount an Encrypted Device
 
 ## Check New Device First
 
@@ -19,15 +19,15 @@ Should output something e.g. `sdc`
 2. sudo mount /dev/mapper/usb_stick /media/user/usb_stick
 ```
 
-# Check Status of Encrypted Device
-
-```
-sudo cryptsetup status usb_stick
-```
-
-# Umount/Close Device
+# Umount/Close an Encrypted Device
 
 ```
 1. sudo umount /media/user/usb_stick
 2. sudo cryptsetup close usb_stick
+```
+
+# Check Status of Encrypted Device
+
+```
+sudo cryptsetup status usb_stick
 ```
