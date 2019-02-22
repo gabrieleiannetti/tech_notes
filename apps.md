@@ -14,7 +14,7 @@
 
 ## Security
 * cryptsetup
-* keepassx
+* keepassxc
 
 ## Shell
 * zsh/oh-my-zsh
