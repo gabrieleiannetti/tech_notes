@@ -12,12 +12,11 @@ Should output something e.g. `sdc`
 
 ## Open/Mount Device
 
-!!! Use the first partition of the device e.g. sdc1 not sdc !!!
-
 ```
 1. sudo cryptsetup open /dev/sdc1 usb_stick
 2. sudo mount /dev/mapper/usb_stick /media/user/usb_stick
 ```
+> Use the first partition of the device e.g. sdc1 not the device sdc itself!
 
 # Umount/Close an Encrypted Device
 
