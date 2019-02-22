@@ -7,7 +7,7 @@
 * gnome-tweak-tool
 
 ## Mail
-* Thunderbird
+* thunderbird
 
 ## Monitoring
 * htop
