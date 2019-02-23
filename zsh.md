@@ -1,6 +1,8 @@
 # ZSH/Oh-My-Zsh
 
-The "Oh-My-Zsh" framework can be found on [GitHub](https://github.com/robbyrussell/oh-my-zsh).
+## Installation
+
+Following instructions on [GitHub](https://github.com/robbyrussell/oh-my-zsh) to install the Oh-My-Zsh framework.
 
 ## Theme
 
