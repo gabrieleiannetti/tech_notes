@@ -2,7 +2,7 @@
 
 ## Installation
 
-Following instructions on [GitHub](https://github.com/robbyrussell/oh-my-zsh) to install the Oh-My-Zsh framework.
+Follow instructions on the [GitHub project page](https://github.com/robbyrussell/oh-my-zsh) to install the Oh-My-Zsh framework.
 
 ## Theme
 
