@@ -11,7 +11,7 @@ Themes are listed [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 
 Favorite theme: agnoster
 
-## Installation of Powerline Fonts  
+## Powerline Fonts  
 
 To render the used theme completley install the Powerline Fonts: https://github.com/powerline/fonts
 
