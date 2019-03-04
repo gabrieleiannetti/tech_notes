@@ -2,7 +2,8 @@
 
 ## Installation
 
-Follow instructions on the [GitHub project page](https://github.com/robbyrussell/oh-my-zsh) to install the Oh-My-Zsh framework.
+* Installing **zsh** and setting it as default shell: https://github.com/robbyrussell/oh-my-zsh/wiki/Installing-ZSH
+* Installing **oh-my-zsh** framework: https://github.com/robbyrussell/oh-my-zsh
 
 ## Theme
 
