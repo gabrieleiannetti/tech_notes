@@ -17,12 +17,12 @@ To render the used theme completley install the Powerline Fonts: https://github.
 
 ### Additional Font Installation and Configuration
 
-If just installing Powerline Fonts does not work, install the following packages as well:
+If just installing Powerline Fonts does not work e.g. broken rendering in Debian Buster (Soft Release), install the following packages as well and **Inconsolata Medium** font type in Terminal settings:
 
 * powerline
 * fonts-inconsolata
 
-> Specify **Inconsolata Medium** font type in Terminal settings.
+> Rewrite this section as required steps...
 
 ## Config
 
