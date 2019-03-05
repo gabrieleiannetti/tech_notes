@@ -15,10 +15,13 @@ Set the date and time local settings for e.g. German so the weeks start at monda
 
 ```sudo localectl set-locale LC_TIME=de_DE.UTF-8```
 
-## Set Main Locale to German With US Additionals
+## Set Primary Language to German with US User Interface
 
-> TODO: Alternatively set all locale to german locals and just specifiy the keyboard and system language in US.
+Setting all locale categories (LC*) to german: ```sudo localectl set-locale LANG=de_DE.UTF-8```
+
+Important here is to keep US for english text translations for the UI: ```LANGUAGE=en_US:en```
 
 ## Ressources and Further Reading
 
 * Short overview about locales: https://wiki.archlinux.org/index.php/locale
+* Description of LANGUAGE variable: http://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable
