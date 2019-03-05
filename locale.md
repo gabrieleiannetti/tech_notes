@@ -15,11 +15,11 @@ Set the date and time local settings for e.g. German so the weeks start at monda
 
 ```sudo localectl set-locale LC_TIME=de_DE.UTF-8```
 
-## Set Primary Language to German with US User Interface
+## Set Primary Language to German with American English User Interface
 
 Setting all locale categories (LC*) to german: ```sudo localectl set-locale LANG=de_DE.UTF-8```
 
-Important here is to keep US for english text translations for the UI: ```LANGUAGE=en_US:en```
+Keep en_US text translations for the UI: ```LANGUAGE=en_US:en```
 
 ## Ressources and Further Reading
 
