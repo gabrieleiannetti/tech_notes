@@ -22,7 +22,7 @@ If just installing Powerline Fonts does not work e.g. broken rendering in Debian
 * powerline
 * fonts-inconsolata
 
-> Rewrite this section as required steps...
+> Rewrite this section as required steps... Create a fonts section!!!
 
 ## Config
 
