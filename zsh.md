@@ -11,9 +11,18 @@ Themes are listed [here](https://github.com/robbyrussell/oh-my-zsh/wiki/Themes).
 
 Favorite theme: agnoster
 
-## Powerline Fonts  
+## Powerline Fonts
 
 To render the used theme completley install the Powerline Fonts: https://github.com/powerline/fonts
+
+### Additional Font Installation and Configuration
+
+If just installing Powerline Fonts does not work, install the following packages as well:
+
+* powerline
+* fonts-inconsolata
+
+> Specify **Inconsolata Medium** font type in Terminal settings.
 
 ## Config
 
