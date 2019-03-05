@@ -1,4 +1,6 @@
-# List of Add-Ons for Mozilla Firefox
+# Firefox
+
+## List of Useful Add-Ons
 
 * uBlock Origin
 * NoScript
