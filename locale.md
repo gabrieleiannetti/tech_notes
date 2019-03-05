@@ -17,4 +17,8 @@ Set the date and time local settings for e.g. German so the weeks start at monda
 
 ## Set Main Locale to German With US Additionals
 
-> TODO: Alternativeley set all locale to german locals and just specifiy the keyboard and system language in US.
+> TODO: Alternatively set all locale to german locals and just specifiy the keyboard and system language in US.
+
+## Ressources and Further Reading
+
+* Short overview about locales: https://wiki.archlinux.org/index.php/locale
