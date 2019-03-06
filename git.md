@@ -2,6 +2,8 @@
 
 ## Config
 
+### GIT Config Command
+
 Set username:
 ```
 git config --global user.name "Gabriele Iannetti"
@@ -17,16 +19,16 @@ Set default text editor:
 git config --global core.editor vi
 ```
 
-Alternatively create or edit the gitconfig file directly:
+### GIT Config File
 
-_cat ~/.gitconfig_
+Filepath: __~/.gitconfig__
 
 ```
 [user]
 	name = Gabriele Iannetti
 	email = g.iannetti@gsi.de
 [core]
-	editor = vi
+	editor = nvim
 ```
 
 ## Diff
