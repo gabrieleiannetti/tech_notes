@@ -16,7 +16,7 @@ git config --global user.email "g.iannetti@gsi.de"
 
 Set default text editor:
 ```
-git config --global core.editor nvim
+git config --global core.editor vi
 ```
 
 ### GIT Config File
@@ -28,7 +28,7 @@ Filepath: __~/.gitconfig__
 	name = Gabriele Iannetti
 	email = g.iannetti@gsi.de
 [core]
-	editor = nvim
+	editor = vi
 ```
 
 ## Diff
