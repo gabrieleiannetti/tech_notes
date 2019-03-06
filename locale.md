@@ -22,9 +22,6 @@ Setting all locale categories (LC*) to german: ```sudo localectl set-locale LANG
 Then override specific LC settings explicitley if neccessary.  
 For instance to display texts on the UI in en_US: ```LC_MESSAGES=en_US.UTF-8```
 
-Keep en_US text translations as well (probably optional?): ```LANGUAGE=en_US:en``` 
-
-## Ressources and Further Reading
+## Ressources
 
 * Short overview about locales: https://wiki.archlinux.org/index.php/locale
-* Description of LANGUAGE variable: http://www.gnu.org/software/gettext/manual/gettext.html#The-LANGUAGE-variable
