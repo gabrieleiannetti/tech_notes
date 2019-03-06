@@ -11,11 +11,9 @@ Install inconsolata fonts and use it in the terminal.
 
 ## Config
 
-Edit file: **~/.zshrc**
+File: **~/.zshrc**
 
 ```
-# Filepath: ~/.zshrc
-
 export ZSH=$HOME/.oh-my-zsh
 
 # Create a TMUX session on startup
