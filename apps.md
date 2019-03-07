@@ -9,6 +9,9 @@
 ## Mail
 * thunderbird
 
+## Mind Maps
+* Freemind
+
 ## Monitoring
 * htop
 
