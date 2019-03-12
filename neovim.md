@@ -29,7 +29,7 @@ set number
 set cursorline
 
 " Show vertical line at 80 character width
-highlight ColorColumn ctermbg=gray
+highlight ColorColumn ctermbg=yellow
 set colorcolumn=80
 
 " Highlight search matches
