@@ -28,6 +28,10 @@ set number
 " Show current line
 set cursorline
 
+" Show vertical line at 80 character width
+highlight ColorColumn ctermbg=gray
+set colorcolumn=80
+
 " Highlight search matches
 set hlsearch
 
