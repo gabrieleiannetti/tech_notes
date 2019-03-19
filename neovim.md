@@ -41,3 +41,7 @@ set tabstop=4 softtabstop=4 shiftwidth=4
 " Display indentation guides
 set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
 ```
+
+## Commands
+
+* Disable/Enable List Chars: ```unset/set list```
