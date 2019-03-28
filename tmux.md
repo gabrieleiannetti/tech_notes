@@ -27,8 +27,6 @@ __tmux list-keys__ or __prefix + ?__
 
 ### Automatic Resizing Multiple Panes
 
-_Useful notes copied from [stackoverflow](https://superuser.com/questions/456775/how-to-auto-resize-panes-in-tmux), thanks to user n0rc!_
-
 ```
 C-b M-1             # vertical split, all panes same width
 C-b M-2             # horizontal split, all panes same height
@@ -40,3 +38,5 @@ C-b M-5             # tile, new panes on bottom, same height before same width
 ```
 
 > Where M denotes the meta key, usually bound to ALT.
+
+_Useful notes copied from [stackoverflow](https://superuser.com/questions/456775/how-to-auto-resize-panes-in-tmux), thanks to user n0rc!_
