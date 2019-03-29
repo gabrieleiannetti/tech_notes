@@ -57,4 +57,4 @@ OPTION(S):
 ### Search and Replace
 
 * Search an expression: ```/```
-* Search and replace all occurences: ```%s/SEARCH-STRING/REPLACE-STRING/g```
+* Search and replace all occurences: ```%s/SEARCH/REPLACE/g```
