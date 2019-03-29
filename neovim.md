@@ -56,5 +56,4 @@ OPTION(S):
 
 ### Search and Replace
 
-* Search an expression: ```/```
-* Search and replace all occurences: ```%s/SEARCH/REPLACE/g```
+[search_and_replace](https://vim.fandom.com/wiki/Search_and_replace)
