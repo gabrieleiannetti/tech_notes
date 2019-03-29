@@ -44,4 +44,10 @@ set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:
 
 ## Commands
 
-* Disable/Enable List Chars: ```unset/set list```
+Enable is ```set{OPTION}```.  
+Disable is ```set no{OPTION}```.  
+
+OPTION(S):
+
+* List Chars: ```list```
+* Line Numbers: ```nu```
