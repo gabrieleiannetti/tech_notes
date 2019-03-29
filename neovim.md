@@ -44,6 +44,8 @@ set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:
 
 ## Commands
 
+### Enabling and Disabling Options
+
 Enable is ```set{OPTION}```.  
 Disable is ```set no{OPTION}```.  
 
@@ -51,3 +53,8 @@ OPTION(S):
 
 * List Chars: ```list```
 * Line Numbers: ```nu```
+
+### Search and Replace
+
+* Search an expression: ```/```
+* Search and replace all occurences: ```%s/SEARCH-STRING/REPLACE-STRING/g```
