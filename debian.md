@@ -1,4 +1,21 @@
+# Debian Installation
+
+## Adding User to Sudoers
+
+First install required package: `apt-get install sudo`
+
+Add new USER to sudoers file `/etc/sudoers`:  
+
+```
+root ALL=(ALL:ALL) ALL
+USER ALL=(ALL:ALL) ALL
+```
+
 # Debian Stretch Installation
+
+Tested with Debian Stretch.
+
+Successful installation steps failed with Debian Buster because of DKMS error...
 
 ## Package Repositories
 
@@ -18,18 +35,6 @@ deb http://ftp.debian.org/debian stretch-backports main
 ```
 
 Update repository references: `apt-get update`
-
-## Adding User to Sudoers
-
-First install required package: `apt-get install sudo`
-
-Add new USER to sudoers file `/etc/sudoers`:  
-
-```
-root ALL=(ALL:ALL) ALL
-USER ALL=(ALL:ALL) ALL
-```
-
 
 ## Installing NVIDIA Proprietary Graphics Card Driver
 
