@@ -2,49 +2,30 @@
 
 ## Package Repositories
 
-Location of Source Repository List: 
+Package repository list `/etc/apt/sources.list`:
 
-```
-/etc/apt/sources.list
-```
+  deb  http://deb.debian.org/debian stretch main contrib non-free
+  deb-src  http://deb.debian.org/debian stretch main contrib non-free
 
-Content of the Source Repository List:
+  deb  http://deb.debian.org/debian stretch-updates main contrib non-free
+  deb-src  http://deb.debian.org/debian stretch-updates main contrib non-free
 
-```
-deb  http://deb.debian.org/debian stretch main contrib non-free
-deb-src  http://deb.debian.org/debian stretch main contrib non-free
+  deb http://security.debian.org/ stretch/updates main contrib non-free
+  deb-src http://security.debian.org/ stretch/updates main contrib non-free
+  
+  deb http://ftp.debian.org/debian stretch-backports main
 
-deb  http://deb.debian.org/debian stretch-updates main contrib non-free
-deb-src  http://deb.debian.org/debian stretch-updates main contrib non-free
-
-deb http://security.debian.org/ stretch/updates main contrib non-free
-deb-src http://security.debian.org/ stretch/updates main contrib non-free
-```
-
-Adding Backport for Strech:
-```
-deb http://ftp.debian.org/debian stretch-backports main
-```
-
-Update Repository References: 
-```
-apt-get update
-```
+Update Repository References: `apt-get update`
 
 ## Adding User to Sudoers
 
-First install required package:
-```
-apt-get install sudo
-```
+First install required package: `apt-get install sudo`
 
-_cat /etc/sudoers_
+Edit sudoers file `/etc/sudoers`:
 
-```
-# User privilege specification
-root	 ALL=(ALL:ALL) ALL
-gabriele ALL=(ALL:ALL) ALL
-```
+  # User privilege specification
+  root	 ALL=(ALL:ALL) ALL
+  gabriele ALL=(ALL:ALL) ALL
 
 ## Installing NVIDIA Proprietary Graphics Card Driver
 
