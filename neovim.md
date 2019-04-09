@@ -20,8 +20,6 @@
 __~/.config/nvim/init.vim__
 
 ```
-" Filepath: ~/.config/nvim/init.vim
-
 " Show line number
 set number
 
