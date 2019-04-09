@@ -33,6 +33,11 @@ USER ALL=(ALL:ALL) ALL
 
 ## Installing NVIDIA Proprietary Graphics Card Driver
 
+Check which graphics card driver is loaded by the Linux kernel:
+
+* NVIDIA driver: `lsmod | grep nvidia`
+* Mouveau driver: `lsmod | grep nouveau`
+
 ### Detect Graphic Card
 
 The graphic card is detected by the NVIDIA detect application.
