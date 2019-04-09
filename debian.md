@@ -17,7 +17,7 @@ deb-src http://security.debian.org/ stretch/updates main contrib non-free
 deb http://ftp.debian.org/debian stretch-backports main
 ```
 
-Update Repository References: `apt-get update`
+Update repository references: `apt-get update`
 
 ## Adding User to Sudoers
 
@@ -36,15 +36,12 @@ gabriele ALL=(ALL:ALL) ALL
 Notes taken from URL:
 _https://wiki.debian.org/NvidiaGraphicsDrivers_
 
-Add "contrib" and "non-free" components to /etc/apt/sources.list:
+Update package repositories `/etc/apt/sources.list`:
 ```
 deb http://httpredir.debian.org/debian/ stretch main contrib non-free
 ```
 
-Update the List of Available Packages:
-```
-apt update
-```
+Update repository references: `apt-get update`
 
 Install the Appropriate Linux-Headers and Kernel Module Packages:
 ```
