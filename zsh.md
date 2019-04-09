@@ -19,7 +19,3 @@ if [ "$TMUX" = "" ]; then tmux; fi
 ```
 
 The agnoster theme requires the **powerline-fonts**: https://github.com/powerline/fonts
-
-## Additional Font Installation
-
-Install inconsolata fonts and use it in the terminal.
