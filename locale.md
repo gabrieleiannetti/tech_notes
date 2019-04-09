@@ -22,7 +22,7 @@ Set the date and time local settings for e.g. German so the weeks start at monda
 Setting all locale categories (LC*) to german: ```sudo localectl set-locale LANG=de_DE.UTF-8```
 
 Then override specific LC settings explicitley if neccessary.  
-For instance to display texts on the UI in en_US: ```LC_MESSAGES=en_US.UTF-8```
+For instance to display texts on the UI in en_US: ```sudo localectl set-locale LC_MESSAGES=en_US.UTF-8```
 
 ### Set Locales by locale.conf
 
