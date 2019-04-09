@@ -68,7 +68,7 @@ Install required packages for installing the driver first:
 * `make`
 * `linux-headers-$(uname -r|sed 's/[^-]*-[^-]*-//')`
 
-Make driver installer executable: `chmod 755 NVIDIA-Linux-x86_64-390.87.run`  
+Make installer executable: `chmod 755 NVIDIA-Linux-x86_64-390.87.run`  
 
 Blacklist the nouveau driver `/etc/modprobe.d/disable-nouveau.conf`:  
 ```
@@ -77,10 +77,11 @@ options nouveau modeset=0
 ```
 
 > Important: Check that installed linux-headers match the same linux-image version:
+> * `uname -a`
 > * `dpkg -l | grep linux-headers` 
 > * `dpkg -l | grep linux-image`
 
-Reboot: `sudo reboot`
+Reboot is required to prevent the blacklisted nouveau driver from beeing loaded!
 
 #### Install the Driver
 
@@ -92,9 +93,17 @@ Switch to run level 3 for non-graphical support: `sudo init 3`
 
 Install the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run`
 
+Choose the installer to configure the x server.
+
 Reboot: `sudo reboot`
 
 #### Uninstall the Driver
+
+Open virtual console 1 by pressing: `<CTRL> + <ALT> + <F1>`  
+
+Log in...  
+
+Switch to run level 3 for non-graphical support: `sudo init 3`  
 
 Uninstall the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run --uninstall`
 
@@ -102,7 +111,7 @@ Remove the nouveau driver from the blacklist: `sudo rm /etc/modprobe.d/disable-n
 
 Reboot: `sudo reboot`
 
-## Installing Packages from Backport
+## Installing Packages from Stretch-Backport
 
 Installation of packages from backport is deactivated by default.
 To install packages manually do:
