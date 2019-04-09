@@ -6,8 +6,8 @@ Lists all active locale settings on the system: ```locale```
 
 ## Generate German Locales
 
-* Uncomment the locale definition e.g. "de_DE.UTF-8 UTF-8" to create in the listed locales file: ```/etc/locale.gen```
-* Generate the locales definitions: ```sudo locale-gen```
+* Uncomment the locale definition __de_DE.UTF-8 UTF-8__ in `/etc/locale.gen`.
+* Generate the locales definitions: `sudo locale-gen`
 
 ## Explicitly Set Date and Time Local Setting
 
