@@ -23,7 +23,6 @@ First install required package: `apt-get install sudo`
 
 Edit sudoers file `/etc/sudoers`:
 
-  # User privilege specification
   root	 ALL=(ALL:ALL) ALL
   gabriele ALL=(ALL:ALL) ALL
 
