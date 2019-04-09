@@ -16,7 +16,7 @@ git config --global user.email "g.iannetti@gsi.de"
 
 Set default text editor:
 ```
-git config --global core.editor vi
+git config --global core.editor vim
 ```
 
 ### GIT Config File
