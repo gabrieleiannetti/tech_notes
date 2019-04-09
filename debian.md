@@ -5,16 +5,16 @@
 Package repository list `/etc/apt/sources.list`:
 
 ```
-  deb  http://deb.debian.org/debian stretch main contrib non-free
-  deb-src  http://deb.debian.org/debian stretch main contrib non-free
+deb  http://deb.debian.org/debian stretch main contrib non-free
+deb-src  http://deb.debian.org/debian stretch main contrib non-free
 
-  deb  http://deb.debian.org/debian stretch-updates main contrib non-free
-  deb-src  http://deb.debian.org/debian stretch-updates main contrib non-free
+deb  http://deb.debian.org/debian stretch-updates main contrib non-free
+deb-src  http://deb.debian.org/debian stretch-updates main contrib non-free
 
-  deb http://security.debian.org/ stretch/updates main contrib non-free
-  deb-src http://security.debian.org/ stretch/updates main contrib non-free
-  
-  deb http://ftp.debian.org/debian stretch-backports main
+deb http://security.debian.org/ stretch/updates main contrib non-free
+deb-src http://security.debian.org/ stretch/updates main contrib non-free
+
+deb http://ftp.debian.org/debian stretch-backports main
 ```
 
 Update Repository References: `apt-get update`
@@ -26,8 +26,8 @@ First install required package: `apt-get install sudo`
 Edit sudoers file `/etc/sudoers`:  
 
 ```
-  root     ALL=(ALL:ALL) ALL  
-  gabriele ALL=(ALL:ALL) ALL
+root     ALL=(ALL:ALL) ALL
+gabriele ALL=(ALL:ALL) ALL
 ```
 
 
