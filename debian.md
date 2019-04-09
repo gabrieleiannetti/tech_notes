@@ -13,10 +13,6 @@ USER ALL=(ALL:ALL) ALL
 
 # Debian Stretch Installation
 
-Tested with Debian Stretch.
-
-Successful installation steps failed with Debian Buster because of DKMS error...
-
 ## Package Repositories
 
 Package repository list `/etc/apt/sources.list`:
@@ -42,6 +38,8 @@ Check which graphics card driver is loaded by the Linux kernel:
 
 * NVIDIA driver: `lsmod | grep nvidia`
 * Mouveau driver: `lsmod | grep nouveau`
+
+> Successful installation steps failed with Debian Buster because of DKMS error...
 
 ### Detect Graphic Card
 
