@@ -68,19 +68,7 @@ Install required packages for installing the driver first:
 * `make`
 * `linux-headers-$(uname -r|sed 's/[^-]*-[^-]*-//')`
 
-> Important: Check that installed linux-headers match the same linux-image version:
-> * `dpkg -l | grep linux-headers` 
-> * `dpkg -l | grep linux-image`
-
 Make driver installer executable: `chmod 755 NVIDIA-Linux-x86_64-390.87.run`  
-
-#### Install the Driver
-
-Open virtual console 1 by pressing: `<CTRL> + <ALT> + <F1>`  
-
-Log in as main user.  
-
-Switch to run level 2 for non-graphical support: `sudo init 2`  
 
 Blacklist the nouveau driver `/etc/modprobe.d/disable-nouveau.conf`:  
 ```
@@ -88,7 +76,29 @@ blacklist nouveau
 options nouveau modeset=0
 ```
 
+> Important: Check that installed linux-headers match the same linux-image version:
+> * `dpkg -l | grep linux-headers` 
+> * `dpkg -l | grep linux-image`
+
+Reboot: `sudo reboot`
+
+#### Install the Driver
+
+Open virtual console 1 by pressing: `<CTRL> + <ALT> + <F1>`  
+
+Log in...  
+
+Switch to run level 3 for non-graphical support: `sudo init 3`  
+
 Install the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run`
+
+Reboot: `sudo reboot`
+
+#### Uninstall the Driver
+
+Uninstall the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run --uninstall`
+
+Remove the nouveau driver from the blacklist: `sudo rm /etc/modprobe.d/disable-nouveau.conf`:  
 
 Reboot: `sudo reboot`
 
