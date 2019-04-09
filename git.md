@@ -28,7 +28,7 @@ Filepath: __~/.gitconfig__
 	name = Gabriele Iannetti
 	email = g.iannetti@gsi.de
 [core]
-	editor = vi
+	editor = vim
 ```
 
 ## Diff
