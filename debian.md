@@ -23,11 +23,11 @@ Update repository references: `apt-get update`
 
 First install required package: `apt-get install sudo`
 
-Edit sudoers file `/etc/sudoers`:  
+Add new USER to sudoers file `/etc/sudoers`:  
 
 ```
-root     ALL=(ALL:ALL) ALL
-gabriele ALL=(ALL:ALL) ALL
+root ALL=(ALL:ALL) ALL
+USER ALL=(ALL:ALL) ALL
 ```
 
 
