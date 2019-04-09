@@ -1,6 +1,6 @@
 # Locale Settings
 
-The locale settings are set by the command `localectl`.
+The locale settings are set by the command `localectl`.  
 To be sure that all settings are enabled relogin or reboot the machine.
 
 ## List Active Locale Settings
