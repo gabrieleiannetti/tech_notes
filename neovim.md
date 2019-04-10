@@ -2,7 +2,12 @@
 
 ## Building from Sources
 
-1. Automatically install all dependencies: `sudo apt-get build-dep neovim`
+1. Install build dependencies: 
+  * On Debian automatically with build-dep: `sudo apt-get build-dep neovim`
+  * Otherwise manually with package list:  
+  ```
+  cmake autoconf g++ pkg-config autopoint build-essential debhelper dh-autoreconf gperf libacl1-dev libuv1-dev libjemalloc-dev  libluajit-5.1-dev libnss-wrapper libtermkey-dev libunibilium-dev libvterm-dev libvterm0 libyaml-dev lua-bitop lua-busted lua-cliargs lua-coxpcall lua-dkjson lua-inifile lua-lpeg lua-luassert lua-luv lua-mediator lua-mpack lua-nvim lua-penlight lua-say lua-term lua-yaml libmsgpack-dev luajit lua-system lua-filesystem
+  ```
 1. Clone repository: `git clone https://github.com/neovim/neovim`
 1. Change directory: `cd neovim`
 1. Show all tags: `git tag`
