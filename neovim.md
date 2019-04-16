@@ -57,6 +57,10 @@ OPTION(S):
 
 ### Search and Replace
 
-* Replace each occurence of a whitespace with a new line: `%s/ /\r/g`
+* Replace each occurence of a whitespace with a new line: `:%s/ /\r/g`
 
 [Detailed documentation about search and replace](https://vim.fandom.com/wiki/Search_and_replace)
+
+### Execute Command with Regular Expression
+
+* Delete each empty line: `:g/^$/d`
