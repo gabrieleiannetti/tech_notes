@@ -2,26 +2,7 @@
 
 ## Config
 
-### GIT Config Command
-
-Set username:
-```
-git config --global user.name "Gabriele Iannetti"
-```
-
-Set email:
-```
-git config --global user.email "g.iannetti@gsi.de"
-```
-
-Set default text editor:
-```
-git config --global core.editor vim
-```
-
-### GIT Config File
-
-Filepath: __~/.gitconfig__
+User specific config settings are saved in `~/,gitconfig`:  
 
 ```
 [user]
@@ -29,7 +10,11 @@ Filepath: __~/.gitconfig__
 	email = g.iannetti@gsi.de
 [core]
 	editor = vim
+[log]
+	decorate = auto
 ```
+
+> Alternatively the command `git config` can also be used...
 
 ## Diff
 
