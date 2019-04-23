@@ -1,5 +1,8 @@
 # Applications
 
+## Downloader
+* clipgrab
+
 ## Editor
 * neovim
 
