@@ -58,7 +58,8 @@ OPTION(S):
 ### Search and Replace
 
 * Replace each occurence of a whitespace with a new line: `:%s/ /\r/g`
-* Replace whole words: `:%s/\<word\>/newword/g`
+* Replace text within visual mode: `:%s/\%Vold_text/new_text/g`
+* Replace whole text: `:%s/\<old_text\>/new_text/g`
 
 [Detailed documentation about search and replace](https://vim.fandom.com/wiki/Search_and_replace)
 
