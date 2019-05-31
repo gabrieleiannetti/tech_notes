@@ -1,6 +1,6 @@
-# Neovim
+# Vim
 
-## Building from Sources
+## Building Neovim from Sources
 
 1. Install build dependencies: 
   * On Debian automatically with build-dep: `sudo apt-get build-dep neovim`
@@ -57,11 +57,22 @@ OPTION(S):
 
 ### Search and Replace
 
+#### Global
+
 * Replace each occurence of a whitespace with a new line: `:%s/ /\r/g`
 * Replace text within visual mode: `:%s/\%Vold_text/new_text/g`
 * Replace whole text: `:%s/\<old_text\>/new_text/g`
 
 [Detailed documentation about search and replace](https://vim.fandom.com/wiki/Search_and_replace)
+
+#### Visual Mode Selection-based
+
+Select text where to search and replace:  
+* Add whitespaces at end of each selected line: `:'<,'>s/$/  /`  
+
+> * `:'<,'>` initializes the command for visual mode selection
+> * `s` means subsitute
+> * `$` regular expression for end of the line or word
 
 ### Execute Command with Regular Expression
 
