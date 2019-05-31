@@ -70,6 +70,7 @@ OPTION(S):
 Select text where to search and replace:  
 * Add whitespaces at end of each selected line: `:'<,'>s/$/  /`  
 
+Explenation:  
 > * `:'<,'>` initializes the command for visual mode selection
 > * `s` means subsitute
 > * `$` regular expression for end of the line or word
