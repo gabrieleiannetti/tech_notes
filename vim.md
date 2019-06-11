@@ -67,8 +67,8 @@ OPTION(S):
 
 #### Visual Mode Selection-based
 
-Select text where to search and replace:  
-* Add whitespaces at end of each selected line: `:'<,'>s/$/  /`  
+Select text where to search and replace.  
+Add whitespaces at end of each selected line: `:'<,'>s/$/  /`  
 
 Explenation:  
 > * `:'<,'>` initializes the command for visual mode selection
@@ -77,4 +77,17 @@ Explenation:
 
 ### Execute Command with Regular Expression
 
-* Delete each empty line: `:g/^$/d`
+Delete each empty line: `:g/^$/d`
+
+### Indention
+
+Indention is triggered by the `>` character from normal and visual mode.  
+
+Examples in normal mode:  
+
+* Indent current line once in normal mode: `>>`
+* Indent all remaining lines from current cursor position to EOF: `>G`
+
+A selected text in visual mode can also be indented by pressing the `>` symbol.
+
+For more information see the help: `:h >`
