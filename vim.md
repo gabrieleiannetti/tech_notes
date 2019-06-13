@@ -91,3 +91,11 @@ Examples in normal mode:
 A selected text in visual mode can also be indented by pressing the `>` symbol.
 
 For more information see the help: `:h >`
+
+### Overview
+
+| Command | Meaning |
+|:-------:|:-------:|
+|    a    | Append at current cursor position |
+|    A    | Append at the end of the line |
+|    $    | Go to end of the line |
