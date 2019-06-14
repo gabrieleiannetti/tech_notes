@@ -94,8 +94,8 @@ For more information see the help: `:h >`
 
 ### Overview
 
-| Command | Meaning |
-|:-------:|:-------:|
-|    a    | Append at current cursor position |
-|    A    | Append at the end of the line |
-|    $    | Go to end of the line |
+| Command | Description |
+|:-------:|:-----------:|
+|    a    | Append text after the cursor |
+|    A    | Append text at the end of the line |
+|    $    | To the end of the line |
