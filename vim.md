@@ -94,8 +94,9 @@ For more information see the help: `:h >`
 
 ### Overview
 
-| Command | Description |
-|:-------:|:-----------:|
-|    a    | Append text after the cursor |
-|    A    | Append text at the end of the line |
-|    $    | To the end of the line |
+| Command     | Description |
+|:-----------:|:-----------:|
+|    a        | Append text after the cursor |
+|    A        | Append text at the end of the line |
+|    f {char} | Go to next {char} occurrence from left to right |
+|    $        | To the end of the line |
