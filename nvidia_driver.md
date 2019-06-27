@@ -9,6 +9,9 @@ Check which graphics card driver is loaded by the Linux kernel:
 
 ## Detect Graphic Card
 
+The following installation steps were executed on Debian Stretch, 
+but the goal here is to install the `nvidia-detect` application.
+
 The graphic card is detected by the NVIDIA detect application.
 
 Update package repositories to install the proper package `/etc/apt/sources.list`:  
