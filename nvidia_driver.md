@@ -1,15 +1,13 @@
-# Installing NVIDIA Proprietary Graphics Card Driver
+# Manual Installation of NVIDIA Proprietary Graphics Card Driver
 
 Check which graphics card driver is loaded by the Linux kernel:
 
 * NVIDIA driver: `lsmod | grep nvidia`
 * Nouveau driver: `lsmod | grep nouveau`
 
-> Successful installation steps failed with Debian Buster because of DKMS error...
-
 ## Detect Graphic Card
 
-The following installation steps were executed on Debian Stretch, 
+The following installation steps were executed on Debian, 
 but the goal here is to install the `nvidia-detect` application.
 
 The graphic card is detected by the NVIDIA detect application.
@@ -62,11 +60,13 @@ Log in...
 
 Switch to run level 3 for non-graphical support: `sudo init 3`  
 
-Install the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run`
+Make the installer executable: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run`
 
-Choose the installer to configure the x server.
+Execute the installer: `sudo ./NVIDIA-Linux-x86_64-390.87.run`
 
-Reboot: `sudo reboot`
+Choose the installer to configure the X server!
+
+Reboot the machine: `sudo reboot`
 
 ### Uninstall the Driver
 
@@ -80,4 +80,4 @@ Uninstall the driver: `sudo ./chmod 755 NVIDIA-Linux-x86_64-390.87.run --uninsta
 
 Remove the nouveau driver from the blacklist: `sudo rm /etc/modprobe.d/disable-nouveau.conf`:  
 
-Reboot: `sudo reboot`
+Reboot the machine: `sudo reboot`
