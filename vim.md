@@ -14,6 +14,8 @@ Content:
 |    a        | Append text after the cursor |
 |    A        | Append text at the end of the line |
 |    f {char} | Go to next {char} occurrence from left to right |
+|    ;        | Repeat latest f, t, F or T [count] times |
+|    .        | Repeat last change, with count replaced with [count] |
 |    $        | To the end of the line |
 
 
