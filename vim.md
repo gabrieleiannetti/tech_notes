@@ -1,49 +1,16 @@
 # Vim
 
-## Building Neovim from Sources
-
-1. Install build dependencies: 
-  * On Debian automatically with build-dep: `sudo apt-get build-dep neovim`
-  * Otherwise manually with package list:  
-  ```
-  cmake autoconf g++ pkg-config autopoint build-essential debhelper dh-autoreconf gperf libacl1-dev libuv1-dev libjemalloc-dev  libluajit-5.1-dev libnss-wrapper libtermkey-dev libunibilium-dev libvterm-dev libvterm0 libyaml-dev lua-bitop lua-busted lua-cliargs lua-coxpcall lua-dkjson lua-inifile lua-lpeg lua-luassert lua-luv lua-mediator lua-mpack lua-nvim lua-penlight lua-say lua-term lua-yaml libmsgpack-dev luajit lua-system lua-filesystem
-  ```
-1. Clone repository: `git clone https://github.com/neovim/neovim`
-1. Change directory: `cd neovim`
-1. Show all tags: `git tag`
-1. Checkout stable release: `git checkout stable`
-1. Create/Change to BUILD directory: `mkdir BUILD && cd BUILD`
-1. Configure: `cmake ..`
-1. Build: `make`
-1. Install: `sudo make install`
-1. Check executable: `which nvim`
-
-## Config
-
-__~/.config/nvim/init.vim__
-
-```
-" Show line number
-set number
-
-" Show current line
-set cursorline
-
-" Show vertical line at 80 character width
-highlight ColorColumn ctermbg=grey
-set colorcolumn=80
-
-" Highlight search matches
-set hlsearch
-
-" Use 4 spaces for tabs
-set tabstop=4 softtabstop=4 shiftwidth=4
-
-" Display indentation guides
-set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
-```
-
 ## Commands
+
+### Overview
+
+| Command     | Description |
+|:-----------:|:-----------:|
+|    a        | Append text after the cursor |
+|    A        | Append text at the end of the line |
+|    f {char} | Go to next {char} occurrence from left to right |
+|    $        | To the end of the line |
+
 
 ### Enabling and Disabling Options
 
@@ -92,11 +59,45 @@ A selected text in visual mode can also be indented by pressing the `>` symbol.
 
 For more information see the help: `:h >`
 
-### Overview
+## Config
 
-| Command     | Description |
-|:-----------:|:-----------:|
-|    a        | Append text after the cursor |
-|    A        | Append text at the end of the line |
-|    f {char} | Go to next {char} occurrence from left to right |
-|    $        | To the end of the line |
+__~/.config/nvim/init.vim__
+
+```
+" Show line number
+set number
+
+" Show current line
+set cursorline
+
+" Show vertical line at 80 character width
+highlight ColorColumn ctermbg=grey
+set colorcolumn=80
+
+" Highlight search matches
+set hlsearch
+
+" Use 4 spaces for tabs
+set tabstop=4 softtabstop=4 shiftwidth=4
+
+" Display indentation guides
+set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
+```
+
+## Building Neovim from Sources
+
+1. Install build dependencies: 
+  * On Debian automatically with build-dep: `sudo apt-get build-dep neovim`
+  * Otherwise manually with package list:  
+  ```
+  cmake autoconf g++ pkg-config autopoint build-essential debhelper dh-autoreconf gperf libacl1-dev libuv1-dev libjemalloc-dev  libluajit-5.1-dev libnss-wrapper libtermkey-dev libunibilium-dev libvterm-dev libvterm0 libyaml-dev lua-bitop lua-busted lua-cliargs lua-coxpcall lua-dkjson lua-inifile lua-lpeg lua-luassert lua-luv lua-mediator lua-mpack lua-nvim lua-penlight lua-say lua-term lua-yaml libmsgpack-dev luajit lua-system lua-filesystem
+  ```
+1. Clone repository: `git clone https://github.com/neovim/neovim`
+1. Change directory: `cd neovim`
+1. Show all tags: `git tag`
+1. Checkout stable release: `git checkout stable`
+1. Create/Change to BUILD directory: `mkdir BUILD && cd BUILD`
+1. Configure: `cmake ..`
+1. Build: `make`
+1. Install: `sudo make install`
+1. Check executable: `which nvim`
