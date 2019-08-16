@@ -1,5 +1,10 @@
 # Vim
 
+Content:  
+* [commands](#commands)
+* [config](#config)
+* [building neovim from sources](#building-neovim-from-sources)
+
 ## Commands
 
 ### Overview
