@@ -13,6 +13,8 @@ Content:
 |:-----------:|:-----------:|
 |    a        | Append text after the cursor. |
 |    A        | Append text at the end of the line. |
+|    n        | Search forward for the next occurrence. |
+|    N        | Search backward for the previous occurrence. |
 |    f {char} | Go to next {char} occurrence from left to right. |
 |    ,        | Repeat latest f, t, F or T in opposite direction [count] times. |
 |    ;        | Repeat latest f, t, F or T [count] times. |
