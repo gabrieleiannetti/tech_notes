@@ -89,7 +89,7 @@ set colorcolumn=80
 set hlsearch
 
 " Use 4 spaces for tabs
-set tabstop=4 softtabstop=4 shiftwidth=4
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Display indentation guides
 set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
