@@ -91,3 +91,7 @@ Delete a remote tag:
 git push origin :1.0
 ```
 
+List tags with commit message (default: 1 line):
+```
+git tag -n
+```
