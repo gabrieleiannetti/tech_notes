@@ -21,7 +21,8 @@ Content:
 |    .        | Repeat last change, with count replaced with [count]. |
 |    u        | Undo [count] changes. |
 |    $        | To the end of the line. |
-
+|    *        | Search forward for the [count]'th occurrence of the word nearest to the cursor. |
+|    #        | Same as '\*', but search backward. |
 
 ### Enabling and Disabling Options
 
