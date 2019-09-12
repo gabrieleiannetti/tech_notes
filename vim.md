@@ -23,6 +23,7 @@ Content:
 |    $        | To the end of the line. |
 |    *        | Search forward for the [count]'th occurrence of the word nearest to the cursor. |
 |    #        | Same as '\*', but search backward. |
+|   cw        | Deletes word at cursor and switch to insert mode (change word = cw). |
 
 ### Enabling and Disabling Options
 
