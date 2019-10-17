@@ -2,7 +2,7 @@
 
 ## Config
 
-User specific config settings are saved in `~/,gitconfig`:  
+User specific config settings are saved in `~/.gitconfig`:  
 
 ```
 [user]
@@ -14,7 +14,7 @@ User specific config settings are saved in `~/,gitconfig`:
 	decorate = auto
 ```
 
-> Alternatively the command `git config` can also be used...
+> Alternatively the command `git config` can also be used.
 
 ## Diff
 
