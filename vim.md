@@ -95,6 +95,8 @@ set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Display indentation guides
 set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
+
+highlight iCursor guifg=white guibg=steelblue
 ```
 
 ## Building Neovim from Sources
