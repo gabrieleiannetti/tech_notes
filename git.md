@@ -6,12 +6,12 @@ User specific config settings are saved in `~/.gitconfig`:
 
 ```
 [user]
-	name = Gabriele Iannetti
-	email = g.iannetti@gsi.de
+    name = Gabriele Iannetti
+    email = g.iannetti@gsi.de
 [core]
-	editor = vim
+    editor = vim
 [log]
-	decorate = auto
+    decorate = auto
 ```
 
 > Alternatively the command `git config` can also be used.
