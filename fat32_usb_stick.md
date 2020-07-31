@@ -99,7 +99,7 @@ Check created partition:
     Disk identifier: 0x00000000
     
     Device     Boot Start       End   Sectors  Size Id Type
-    /dev/sdc1        2048 120979455 120977408 57,7G 1c Hidden W95 FAT32 (LBA)
+    /dev/sdc1        2048 120979455 120977408 57,7G  c W95 FAT32 (LBA)
 
 Format partition with FAT32:  
 
