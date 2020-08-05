@@ -50,10 +50,9 @@ Shows the history including change diffs of a file:
 git log -p -- file
 ```
 
-Overwrite author for last commit:
+Overwrite author for last commit on current branch:
 ```
 git commit --amend --author "Gabriele Iannetti <g.iannetti@gsi.de>" --no-edit
-git rebase --continue
 git push --force
 ```
 
