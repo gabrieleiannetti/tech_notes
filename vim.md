@@ -13,6 +13,8 @@ Content:
 |:-----------:|:-----------:|
 |    a        | Append text after the cursor. |
 |    A        | Append text at the end of the line. |
+|    b        | Move cursor [count] words backward. |
+|    w        | Move cursor [count] words forward. |
 |    n        | Search forward for the next occurrence. |
 |    N        | Search backward for the previous occurrence. |
 |    f {char} | Go to next {char} occurrence from left to right. |
@@ -24,6 +26,7 @@ Content:
 |    *        | Search forward for the [count]'th occurrence of the word nearest to the cursor. |
 |    #        | Same as '\*', but search backward. |
 |    cw       | Delete to end of the word at cursor and switch into insert mode (change word = cw). |
+|    daw      | Delete a word (including whitespace character). |
 
 ### Enabling and Disabling Options
 
