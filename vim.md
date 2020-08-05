@@ -25,7 +25,7 @@ Content:
 |    $        | To the end of the line. |
 |    *        | Search forward for the [count]'th occurrence of the word nearest to the cursor. |
 |    #        | Same as '\*', but search backward. |
-|    cw       | Delete to end of the word at cursor and switch into insert mode (change word = cw). |
+|    cw       | Delete to end of the word and switch into insert mode (cw = change word). |
 |    daw      | Delete a word (including whitespace character). |
 
 ### Enabling and Disabling Options
