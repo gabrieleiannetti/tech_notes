@@ -50,6 +50,13 @@ Shows the history including change diffs of a file:
 git log -p -- file
 ```
 
+Overwrite author for last commit:
+```
+git commit --amend --author "Gabriele Iannetti <g.iannetti@gsi.de>" --no-edit
+git rebase --continue
+git push --force
+```
+
 ## Push
 
 Push branch to remote origin
