@@ -75,6 +75,12 @@ Show all branches not merged into master:
 git branch --no-merged master
 ```
 
+Print out the history of all commits,  
+showing where the branch pointers are and how history has diverged:
+```
+git log --oneline --decorate --graph --all
+```
+
 ## Tag
 
 Create a new tag with version number and a message:
