@@ -7,7 +7,7 @@
 ## Testing Sequential IO Write Performance on a Device
 
 Useful to test sequential wirte speed on e.g. USB stick.  
-2 runs are done step by step...  
+3 runs are done step by step...  
 (probably a fsync is required after each run,  
 since the performance gets slightly worse after each run?)
 
