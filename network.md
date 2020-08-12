@@ -1,6 +1,6 @@
 # Network
 
-## ip - show / manipulate routing, devices, policy routing and tunnels
+## ip
 
 **Show Link Status:**  
 ```ip link show```  
@@ -8,7 +8,7 @@
 **Show IP Address:**  
 ```ip addr show```  
 
-## nmcli - command-line tool for controlling NetworkManager
+## nmcli
 
 **Readable output for humans:**  
 ```nmcli -p```  
@@ -57,4 +57,10 @@
     DHCP4.OPTION[30]:                       requested_wpad = 1
     DHCP4.OPTION[31]:                       routers = 10.1.1.1
     DHCP4.OPTION[32]:                       subnet_mask = 255.255.255.0
+
+# iptables
+
+**List NAT rules:**  
+```sudo iptables -L -t nat```
+
 
