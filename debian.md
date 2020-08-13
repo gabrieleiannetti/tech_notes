@@ -50,5 +50,5 @@ USER ALL=(ALL:ALL) ALL
 * `sudo apt install -t unstable firefox`
 * `sudo apt purge firefox-esr`
 
-	Installing latest Firefox from unstable might also install/upgrade packages from unstable mirror.
+	Installing latest Firefox from unstable might also install/upgrade packages from unstable mirror.  
 	Downgrading unstable packages could be an option on system failure.
