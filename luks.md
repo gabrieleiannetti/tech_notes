@@ -27,6 +27,4 @@ Should output something e.g. `sdc`
 
 # Check Status of Encrypted Device
 
-```
-sudo cryptsetup status usb_stick
-```
+`sudo cryptsetup status usb_stick`

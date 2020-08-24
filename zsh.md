@@ -7,9 +7,9 @@
 
 ## Config
 
-File: **~/.zshrc**
+**~/.zshrc**
 
-```
+```bash
 export ZSH=$HOME/.oh-my-zsh
 
 ZSH_THEME="robbyrussell"

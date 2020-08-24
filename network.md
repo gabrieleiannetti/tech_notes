@@ -3,27 +3,27 @@
 ## ip
 
 **Show Link Status:**  
-```ip link show```  
+`ip link show`
 
 **Show IP Address:**  
-```ip addr show```  
+`ip addr show`
 
 ## nmcli
 
 **Readable output for humans:**  
-```nmcli -p```  
+`nmcli -p`
 
 **Show all connection profiles:**  
-```nmcli connection show```
+`nmcli connection show`
 
     NAME  UUID                                  TYPE      DEVICE
     eth0  0f53c41e-e3d1-4610-ae68-67114604368c  ethernet  eth0
 
 **Show details for specific connection:**  
-```nmcli connection show 0f53c41e-e3d1-4610-ae68-67114604368c```   
+`nmcli connection show 0f53c41e-e3d1-4610-ae68-67114604368c`
 
 **Print DHCP related options for specific connection:**  
-```nmcli connection show 0f53c41e-e3d1-4610-ae68-67114604368c | grep dhcp```
+`nmcli connection show 0f53c41e-e3d1-4610-ae68-67114604368c | grep dhcp`
 
     DHCP4.OPTION[1]:                        broadcast_address = 10.1.1.255
     DHCP4.OPTION[2]:                        dhcp_lease_time = 3600
@@ -61,6 +61,6 @@
 # iptables
 
 **List NAT rules:**  
-```sudo iptables -L -t nat```
+`sudo iptables -L -t nat`
 
 

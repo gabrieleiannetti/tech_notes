@@ -8,6 +8,6 @@ This is the text how it looks like form the input.txt file:
 
 The awk command with substitution within a given text:
 
-```
+```bash
 awk -F '|' '{ print "UPDATE TABLE SET field='\''"$2"'\'' where field='\''"$1 "'\'';"}' input.txt
 ```
