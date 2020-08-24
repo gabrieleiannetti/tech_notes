@@ -15,5 +15,9 @@
         "editor.fontSize": 16,
         "debug.console.fontSize": 16,
         "markdown.preview.fontSize": 16,
-        "editor.rulers": [120]
+        "editor.rulers": [
+            120
+        ],
+        "editor.wordWrap": "bounded",
+        "editor.wordWrapColumn": 120
     }
