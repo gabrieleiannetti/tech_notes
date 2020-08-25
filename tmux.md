@@ -31,3 +31,17 @@ __tmux list-keys__ or __prefix + ?__
 **~/.tmux.config**  
 
     set -g default-terminal "screen-256color"
+
+## Auto Create Session
+
+**~/.profile**  
+
+```bash
+if [[ -z "$TMUX" ]]; then
+    if tmux has-session 2>/dev/null; then
+        exec tmux attach
+    else
+        exec tmux
+    fi
+fi
+```
