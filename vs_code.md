@@ -20,6 +20,7 @@
     ],
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
-    "editor.trimAutoWhitespace": false
+    "editor.trimAutoWhitespace": true,
+    "python.showStartPage": false
 }
 ```
