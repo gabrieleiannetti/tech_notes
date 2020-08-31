@@ -21,6 +21,7 @@
     "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "editor.trimAutoWhitespace": true,
-    "python.showStartPage": false
+    "python.showStartPage": false,
+    "editor.minimap.enabled": false
 }
 ```
