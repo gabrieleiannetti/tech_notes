@@ -6,9 +6,32 @@
 
 ## Installing Packages
 
-* [NVIDIA Graphics Card Driver](https://wiki.manjaro.org/index.php?title=Configure_NVIDIA_(non-free)_settings_and_load_them_on_Startup)
 * **host** command: `sudo pacman -S bind`
 
 ## Removing Packages
 
 * If using NVIDIA driver drop the Radeon related packages and vice versa...
+
+## Installation and Configuration of Graphics Card
+
+### Overview
+
+* [Configuration of Graphics Card](https://wiki.manjaro.org/Configure_Graphics_Cards)
+* [NVIDIA Graphics Card Driver](https://wiki.manjaro.org/index.php?title=Configure_NVIDIA_(non-free)_settings_and_load_them_on_Startup)
+
+### Snippets
+
+Show Graphic card(s) information:  
+```inxi -G```
+
+List appropriate drivers available:  
+```mhwd -l```
+
+List installed driver configs:  
+```mhwd -li```
+
+Install video-nvidia-450xx driver:  
+```sudo mhwd -i pci video-nvidia-450xx```
+
+Force reinstallation of video-nvidia-450xx driver:  
+```sudo mhwd -f -i pci video-nvidia-450xx```
