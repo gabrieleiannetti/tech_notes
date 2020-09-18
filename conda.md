@@ -2,6 +2,13 @@
 
 https://docs.conda.io/en/latest/
 
-## Commands
+## Deactivate Activation of base Environment on Terminal Startup
 
-* ```conda activate/deactivate```
+```conda config --set auto_activate_base false```
+
+
+## Manual Activation/Deactivation of the Environment
+
+```conda activate/deactivate```
+
+
