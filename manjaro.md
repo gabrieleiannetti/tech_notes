@@ -11,6 +11,7 @@
 ## Removing Packages
 
 * If using NVIDIA driver drop the Radeon related packages and vice versa...
+* manjaro-hello
 
 ## Installation and Configuration of Graphics Card
 
