@@ -9,7 +9,6 @@
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
     "settingsSync.keybindingsPerPlatform": false,
-    "python.defaultInterpreterPath": "/usr/bin/python3",
     "editor.renderWhitespace": "boundary",
     "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
@@ -18,10 +17,13 @@
     "editor.rulers": [
         120
     ],
-    "editor.wordWrap": "bounded",
     "editor.wordWrapColumn": 120,
     "editor.trimAutoWhitespace": true,
     "python.showStartPage": false,
-    "editor.minimap.enabled": false
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": false,
+    "python.defaultInterpreterPath": "/usr/bin/python3"
 }
 ```
