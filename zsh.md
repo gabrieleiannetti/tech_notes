@@ -20,6 +20,9 @@ alias vim=nvim
 
 # Create a TMUX session on startup
 if [ "$TMUX" = "" ]; then tmux; fi
+
+# Change path to Go lang workspace directory
+export GOPATH=~/workspace/go
 ```
 
 The agnoster theme requires the **powerline-fonts**: https://github.com/powerline/fonts
