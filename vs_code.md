@@ -27,6 +27,8 @@
     "python.defaultInterpreterPath": "/usr/bin/python3",
     "git.autoRepositoryDetection": false,
     "git.enabled": false,
-    "github.gitAuthentication": false
+    "github.gitAuthentication": false,
+    "go.gopath": "~/workspace/go",
+    "go.formatTool": "goimports"
 }
 ```
