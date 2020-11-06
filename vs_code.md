@@ -10,10 +10,10 @@
     "telemetry.enableTelemetry": false,
     "settingsSync.keybindingsPerPlatform": false,
     "editor.renderWhitespace": "boundary",
-    "terminal.integrated.fontSize": 16,
-    "editor.fontSize": 16,
-    "debug.console.fontSize": 16,
-    "markdown.preview.fontSize": 16,
+    "terminal.integrated.fontSize": 18,
+    "editor.fontSize": 18,
+    "debug.console.fontSize": 18,
+    "markdown.preview.fontSize": 18,
     "editor.rulers": [
         120
     ],
