@@ -36,3 +36,6 @@ Install video-nvidia-450xx driver:
 
 Force reinstallation of video-nvidia-450xx driver:  
 ```sudo mhwd -f -i pci video-nvidia-450xx```
+
+Removing installed video driver:  
+```sudo mhwd -r pci video-nvidia-455xx```
