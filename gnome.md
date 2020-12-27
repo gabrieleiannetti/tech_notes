@@ -1,4 +1,8 @@
-# GNOME 3 Specific
+# GNOME 3
+
+## Keyboard Shortcuts
+
+https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 
 ## Customization Apps
 
