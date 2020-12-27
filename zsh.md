@@ -16,8 +16,6 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
-alias vim=nvim
-
 # Create a TMUX session on startup
 if [ "$TMUX" = "" ]; then tmux; fi
 
