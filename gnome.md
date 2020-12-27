@@ -1,5 +1,10 @@
 # GNOME 3 Specific
 
+## Customization Apps
+
+* Extensions
+* Tweaks
+
 ## Creation of Application Icons
 
 ### Icon Locations
