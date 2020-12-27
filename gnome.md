@@ -9,6 +9,15 @@ https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 * Extensions
 * Tweaks
 
+## Removal of Apps
+
+* malcontent (Parental Controls)
+
+## Deactivating Annoying Beep Sound for a Current Logged In User
+
+```
+gsettings set org.gnome.desktop.sound event-sounds false
+```
 ## Creation of Application Icons
 
 ### Icon Locations
@@ -33,9 +42,3 @@ Categories=Utility;
 ```
 
 _The freemind icon file has been extracted from the freemindbrowser.jar application file._ 
-
-## Deactivating Annoying Beep Sound for a Current Logged In User
-
-```
-gsettings set org.gnome.desktop.sound event-sounds false
-```
