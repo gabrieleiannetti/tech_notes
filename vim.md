@@ -77,7 +77,8 @@ For more information see the help: `:h >`
 
 ## Config
 
-__~/.config/nvim/init.vim__
+* VIM: __~/.vimrc__
+* NeoVIM: __~/.config/nvim/init.vim__
 
 ```
 " Show line number
