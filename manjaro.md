@@ -36,3 +36,11 @@ Install video-nvidia-450xx driver:
 
 Force reinstallation of video-nvidia-450xx driver:  
 ```sudo mhwd -f -i pci video-nvidia-450xx```
+
+## Installing Printer
+
+Printer relevant modules e.g. CUPS might be not installed/activated on Manjaro.  
+Therefore it is necessary to installed the requirements.  
+
+Follow notes at:  
+https://wiki.manjaro.org/index.php?title=Printing
