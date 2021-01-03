@@ -20,6 +20,15 @@ Install:
 ```
 gsettings set org.gnome.desktop.sound event-sounds false
 ```
+
+## Font Settings
+
+* Open Gnome Tweaks
+* Open Fonts
+    * Set **Hinting**: Full
+    * Set **Antialiasing**: Subpixel
+    * Set **Scaling Factor**: 1,25
+
 ## Creation of Application Icons
 
 ### Icon Locations
