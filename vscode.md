@@ -32,3 +32,12 @@
     "go.formatTool": "goimports"
 }
 ```
+
+## Extensions
+
+### Python
+
+Extension: Python  
+Publisher: ms-python  
+Description: Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, snippets, and more.  
+
