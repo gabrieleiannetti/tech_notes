@@ -1,8 +1,8 @@
-# Visual Studio Code
+# Visual Studio Code - Open Source ("Code - OSS")
 
 ## Config
 
-**~/.config/Code/User/settings.json**
+**~/.config/Code - OSS/User/settings.json**
 
 ```
 {
@@ -10,10 +10,10 @@
     "telemetry.enableTelemetry": false,
     "settingsSync.keybindingsPerPlatform": false,
     "editor.renderWhitespace": "boundary",
-    "terminal.integrated.fontSize": 18,
-    "editor.fontSize": 18,
-    "debug.console.fontSize": 18,
-    "markdown.preview.fontSize": 18,
+    "terminal.integrated.fontSize": 16,
+    "editor.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
     "editor.rulers": [
         120
     ],
