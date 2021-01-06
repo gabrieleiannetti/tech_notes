@@ -21,6 +21,26 @@ Install:
 gsettings set org.gnome.desktop.sound event-sounds false
 ```
 
+## Deactivate Search and Indexing
+
+Navigate to Gnome Settings **Settings->Search** and deactivate search function.
+
+Afterwards the already created cache of the tracker application can also  
+be deleted:  
+
+```bash
+$ du -sh ~/.cache/tracker
+3,7M    /home/gia/.cache/tracker
+
+$ du -sh ~/.cache/tracker3 
+17M     /home/gia/.cache/tracker3
+
+rm -rf ~/.cache/tracker/*
+rm -rf ~/.cache/tracker3/*
+```
+
+The tracker process should also be offline:  `ps aux | grep tracker`
+
 ## Font Settings
 
 * Open Gnome Tweaks
