@@ -29,7 +29,8 @@
     "git.enabled": false,
     "github.gitAuthentication": false,
     "go.gopath": "~/workspace/go",
-    "go.formatTool": "goimports"
+    "go.formatTool": "goimports",
+    "files.trimTrailingWhitespace": true
 }
 ```
 
