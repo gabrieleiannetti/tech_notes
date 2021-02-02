@@ -81,6 +81,14 @@ showing where the branch pointers are and how history has diverged:
 git log --oneline --decorate --graph --all
 ```
 
+## Reset
+
+Do not touch the index file or the working tree at all,  
+but resets the head to specific <commit>:
+```
+git reset --soft <commit>
+```
+
 ## Tag
 
 Create a new tag with version number and a message:
