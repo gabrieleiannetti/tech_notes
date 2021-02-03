@@ -1,5 +1,13 @@
 # Firefox
 
+## Preferences 
+
+* General
+    * Language and Appearance
+        * Zoom
+            * Default zoom `120%`
+            * Activate `Zoom text only`
+
 ## List of Useful Add-Ons
 
 * uBlock Origin
