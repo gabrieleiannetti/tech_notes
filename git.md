@@ -12,9 +12,9 @@ User specific config settings are saved in `~/.gitconfig`:
     editor = vim
 [log]
     decorate = auto
+[pull]
+    rebase = false
 ```
-
-> Alternatively the command `git config` can also be used.
 
 ## Diff
 
