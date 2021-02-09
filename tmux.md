@@ -34,17 +34,3 @@ __tmux list-keys__ or __prefix + ?__
     bind '"' split-window -c "#{pane_current_path}"
     bind % split-window -h -c "#{pane_current_path}"
     bind c new-window -c "#{pane_current_path}"
-
-## Auto Create Session
-
-**~/.profile**  
-
-```bash
-if [[ -z "$TMUX" ]]; then
-    if tmux has-session 2>/dev/null; then
-        exec tmux attach
-    else
-        exec tmux
-    fi
-fi
-```
