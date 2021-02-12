@@ -25,6 +25,10 @@ Create an environment with a specific version of Python:
 
 ```conda env list```
 
+### Remove an Environment
+
+`conda env remove -n myenv`
+
 ### Viewing a list of the packages in an Environment
 
 If the environment is not activated:  
