@@ -37,6 +37,12 @@ If the environment is not activated:
 If the environment is activated:  
 ```conda list```
 
+## Packaging
+
+### Installing a Package
+
+Install package in current environment:  
+`conda install <pkg>=<version>`
 
 ## Resources
 
