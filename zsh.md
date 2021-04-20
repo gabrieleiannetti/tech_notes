@@ -16,6 +16,8 @@ ZSH_THEME="robbyrussell"
 
 plugins=(git)
 
+source $ZSH/oh-my-zsh.sh
+
 # Create a TMUX session on startup
 if [ "$TMUX" = "" ]; then tmux; fi
 
