@@ -25,11 +25,3 @@ __tmux list-keys__ or __prefix + ?__
 1. Navigate to end position with arrow keys.
 1. Copy text into clipboard: __ctrl__ + __w__
 1. For pasting press: __prefix__ + __]__
-
-## Config
-
-**~/.tmux.conf**  
-
-    bind '"' split-window -c "#{pane_current_path}"
-    bind % split-window -h -c "#{pane_current_path}"
-    bind c new-window -c "#{pane_current_path}"
