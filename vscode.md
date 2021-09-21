@@ -38,24 +38,24 @@
 
 ### Go
 
-Name: Go
-Id: golang.go
-Description: Rich Go language support for Visual Studio Code
-Publisher: Go Team at Google
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=golang.Go
+Name: Go  
+Id: golang.go  
+Description: Rich Go language support for Visual Studio Code  
+Publisher: Go Team at Google  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=golang.Go  
 
 ### Python
 
-Name: Python
-Id: ms-python.python
-Description: Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, and more.
-Publisher: Microsoft
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.python
+Name: Python  
+Id: ms-python.python  
+Description: Linting, Debugging (multi-threaded, remote), Intellisense, Jupyter Notebooks, code formatting, refactoring, unit tests, and more.  
+Publisher: Microsoft  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-python.python  
 
 ### LaTeX
 
-Name: LaTeX Workshop
-Id: james-yu.latex-workshop
-Description: Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.
-Publisher: James Yu
-VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop
+Name: LaTeX Workshop  
+Id: james-yu.latex-workshop  
+Description: Boost LaTeX typesetting efficiency with preview, compile, autocomplete, colorize, and more.  
+Publisher: James Yu  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop  
