@@ -4,5 +4,5 @@
 
 * texlive
 * texlive-pictures
+* texlive-latex-extra
 * latexmk
-
