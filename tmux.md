@@ -6,8 +6,8 @@ https://leanpub.com/the-tao-of-tmux/read
 
 ## Cheat Sheet
 
-* https://leanpub.com/the-tao-of-tmux/read#appendix-cheatsheets
 * https://gist.github.com/andreyvit/2921703
+* https://leanpub.com/the-tao-of-tmux/read#appendix-cheatsheets
 
 ## Best Pactices and Control Commands
 
