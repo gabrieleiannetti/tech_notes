@@ -1,9 +1,16 @@
 # The Go Programming Language
 
-## Environment Variables
+## Adding Golang binaries to PATH
 
-* `GOBIN` - where to find binaries
-* `GOPATH` - where to find workspace
+
+- default: `~/go`
+- Typically used by me: `~/workspace/golang/bin`
+
+```
+GOBIN=~/workspace/golang/bin
+PATH=$PATH:$GOBIN
+export PATH
+```
 
 ## Go Workspace
 
