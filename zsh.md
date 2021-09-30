@@ -21,8 +21,13 @@ source $ZSH/oh-my-zsh.sh
 # Create a TMUX session on startup
 if [ "$TMUX" = "" ]; then tmux; fi
 
-# Change path to Go lang workspace directory
+# Change path to Golang workspace directory
 export GOPATH=~/workspace/go
+
+# Add Golang binaries to PATH
+GOBIN=~/workspace/golang/bin
+PATH=$PATH:$GOBIN
+export PATH
 ```
 
 The agnoster theme requires the **powerline-fonts**: https://github.com/powerline/fonts
