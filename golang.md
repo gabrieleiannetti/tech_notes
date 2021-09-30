@@ -1,11 +1,16 @@
 # The Go Programming Language
 
+## Environment Variables
+
+* `GOBIN` - where to find binaries
+* `GOPATH` - where to find workspace
+
 ## Go Workspace
 
 ### GOPATH
 
-- default: ~/go
-- can be modified via loaded env vars on shell startup
+- default: `~/go`
+- Typically used by me: `~/workspace/go`
 
 ### Directories
 
