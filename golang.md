@@ -19,6 +19,10 @@ export PATH
 - default: `~/go`
 - Typically used by me: `~/workspace/go`
 
+```
+GOPATH=~/workspace/go
+```
+
 ### Directories
 
 - bin - compiled executables
