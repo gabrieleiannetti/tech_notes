@@ -1,29 +1,17 @@
 # The Go Programming Language
 
-## Adding Golang binaries to PATH
-
-
-- default: `~/go`
-- Typically used by me: `~/workspace/golang/bin`
+## Environment Variables
 
 ```
-GOBIN=~/workspace/golang/bin
+export GOBIN=~/golang/bin
+export GOROOT=~/golang
+export GOPATH=~/workspace/
+
 PATH=$PATH:$GOBIN
 export PATH
 ```
 
-## Go Workspace
-
-### GOPATH
-
-- default: `~/go`
-- Typically used by me: `~/workspace/go`
-
-```
-GOPATH=~/workspace/go
-```
-
-### Directories
+## Go Workspace Directories
 
 - bin - compiled executables
 - pkg - compiled packages
