@@ -11,4 +11,4 @@
 
 ## Code Checker
 
-[Pylint](https://www.pylint.org/) - Useful tool for checking Python code e.g. finding unused variables, syntax errors and more...  
+[Pylint](https://www.pylint.org/)
