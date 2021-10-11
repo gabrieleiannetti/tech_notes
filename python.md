@@ -1,9 +1,20 @@
 # Python Programming Language
 
-## Differences between Python Version 2.7 and 3
+## Table of Contents
 
-[The key differences between Python 2.7.x and Python 3.x with examples](https://sebastianraschka.com/Articles/2014_python_2_3_key_diff.html)
+* [Style Guide](#style-guide)
+* [Python Docstrings](python-docstrings)
+* [Code Checker](#code-checker)
 
-## Pip
+## Style Guide
 
-python3-pip
+[Official Python Style Guide](https://www.python.org/dev/peps/pep-0008/)  
+[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)  
+
+## Python Docstrings
+
+[Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)  
+
+## Code Checker
+
+[Pylint](https://www.pylint.org/) - Useful tool for checking Python code e.g. finding unused variables, syntax errors and more...  
