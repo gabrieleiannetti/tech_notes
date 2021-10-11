@@ -3,7 +3,7 @@
 ## Table of Contents
 
 * [Style Guide](#style-guide)
-* [Python Docstrings](python-docstrings)
+* [Python Docstrings](#python-docstrings)
 * [Code Checker](#code-checker)
 
 ## Style Guide
