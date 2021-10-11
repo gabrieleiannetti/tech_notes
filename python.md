@@ -1,11 +1,5 @@
 # Python Programming Language
 
-## Table of Contents
-
-* [Style Guide](#style-guide)
-* [Python Docstrings](#python-docstrings)
-* [Code Checker](#code-checker)
-
 ## Style Guide
 
 [Official Python Style Guide](https://www.python.org/dev/peps/pep-0008/)  
