@@ -81,6 +81,11 @@ showing where the branch pointers are and how history has diverged:
 git log --oneline --decorate --graph --all
 ```
 
+Delete remote branch:  
+```
+git push origin --delete branch
+```
+
 ## Reset
 
 Do not touch the index file or the working tree at all,  
