@@ -2,6 +2,8 @@
 
 ## Environment Variables
 
+### Custom Installation
+
 ```
 export GOBIN=~/golang/bin
 export GOROOT=~/golang
