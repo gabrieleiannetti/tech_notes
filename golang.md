@@ -6,7 +6,6 @@
 
 ```
 export GOBIN=~/golang/bin
-export GOROOT=~/golang
 export GOPATH=~/workspace/
 
 PATH=$PATH:$GOBIN
