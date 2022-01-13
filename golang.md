@@ -4,6 +4,8 @@
 
 ### Custom Installation
 
+~/.zshrc
+
 ```
 export GOBIN=~/golang/bin
 export GOPATH=~/workspace/go
