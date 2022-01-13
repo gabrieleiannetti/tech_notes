@@ -4,7 +4,7 @@
 * clipgrab
 
 ## Editor
-* neovim
+* vim
 
 ## Gnome
 * gnome-tweak-tool
@@ -14,6 +14,9 @@
 
 ## Monitoring
 * htop
+
+## Music
+* audacious
 
 ## Security
 * cryptsetup
