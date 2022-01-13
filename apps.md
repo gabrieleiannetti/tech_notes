@@ -6,9 +6,6 @@
 ## Editor
 * vim
 
-## Gnome
-* gnome-tweak-tool
-
 ## Mail
 * thunderbird
 
