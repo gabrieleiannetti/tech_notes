@@ -2,6 +2,7 @@
 
 ## Downloader
 * clipgrab
+* youtube-dl
 
 ## Editor
 * vim
