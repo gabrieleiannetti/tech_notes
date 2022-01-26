@@ -87,9 +87,9 @@ set number
 " Show current line
 set cursorline
 
-" Show vertical line at 80 character width
+" Show vertical line at 120 character width
 highlight ColorColumn ctermbg=grey
-set colorcolumn=80
+set colorcolumn=120
 
 " Highlight search matches
 set hlsearch
@@ -98,7 +98,7 @@ set hlsearch
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 " Display indentation guides
-set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,space:.,eol:↵
+set list listchars=tab:❘-,trail:·,extends:»,precedes:«,nbsp:×,eol:↵
 
 highlight iCursor guifg=white guibg=steelblue
 ```
