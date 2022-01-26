@@ -6,10 +6,7 @@ https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 
 ## Customization Apps
 
-Install:  
-
 * Extensions
-* Tweaks
 
 ## Removal of Apps
 
