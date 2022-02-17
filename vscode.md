@@ -8,6 +8,7 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "settingsSync.keybindingsPerPlatform": false,
     "editor.renderWhitespace": "boundary",
     "terminal.integrated.fontSize": 16,
