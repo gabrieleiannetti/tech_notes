@@ -37,6 +37,14 @@
 
 ## Extensions
 
+### C/C++
+
+Name: C/C++  
+Id: ms-vscode.cpptools  
+Description: C/C++ IntelliSense, debugging, and code browsing.  
+Publisher: Microsoft  
+VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools  
+
 ### Go
 
 Name: Go  
