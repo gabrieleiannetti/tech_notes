@@ -25,7 +25,7 @@ if [ "$TMUX" = "" ]; then tmux; fi
 export GOPATH=~/workspace/go
 
 # Add Golang binaries to PATH
-GOBIN=~/workspace/golang/bin
+GOBIN=~/go/bin
 PATH=$PATH:$GOBIN
 export PATH
 ```
