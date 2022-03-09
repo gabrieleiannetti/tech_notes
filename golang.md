@@ -7,7 +7,7 @@
 ~/.zshrc
 
 ```
-export GOBIN=~/golang/bin
+export GOBIN=~/go/bin
 export GOPATH=~/workspace/go
 
 PATH=$PATH:$GOBIN
