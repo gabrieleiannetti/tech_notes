@@ -1,29 +1,29 @@
-# Prerequistes
+# LUKS
+
+## Prerequistes
 
 Install the following package: `cryptsetup`
 
-# Mount an Encrypted Device
-
-## Check New Device First
+## Check Device Name First
 
 Check plugged in device first: `sudo dmesg`
 
-Should output something e.g. `sdc`
+Should output something e.g. `sdX`
 
-## Open/Mount Device
+## Create an Encrypted Device
 
-```
-1. sudo cryptsetup open /dev/sdc usb_stick
-2. sudo mount /dev/mapper/usb_stick /media/user/usb_stick
-```
+`sudo cryptsetup --type luks2 luksFormat /dev/sdX`
 
-# Umount/Close an Encrypted Device
+## Mount Encrypted Device
 
-```
-1. sudo umount /media/user/usb_stick
-2. sudo cryptsetup close usb_stick
-```
+### Open Device
 
-# Check Status of Encrypted Device
+`sudo cryptsetup open /dev/sdX device_name`
 
-`sudo cryptsetup status usb_stick`
+### Close an Encrypted Device
+
+`sudo cryptsetup close device_name`
+
+## Check Status of Encrypted Device
+
+`sudo cryptsetup status device_name`
