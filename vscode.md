@@ -6,20 +6,21 @@
 
 ```
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
-    "telemetry.telemetryLevel": "off",
-    "settingsSync.keybindingsPerPlatform": false,
+    "editor.wordWrap": "on",
     "editor.renderWhitespace": "boundary",
-    "terminal.integrated.fontSize": 16,
     "editor.fontSize": 16,
-    "debug.console.fontSize": 16,
-    "markdown.preview.fontSize": 16,
     "editor.rulers": [
         120
     ],
     "editor.wordWrapColumn": 120,
     "editor.trimAutoWhitespace": true,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
+    "settingsSync.keybindingsPerPlatform": false,
+    "terminal.integrated.fontSize": 16,
+    "debug.console.fontSize": 16,
+    "markdown.preview.fontSize": 16,
     "python.showStartPage": false,
     "workbench.startupEditor": "newUntitledFile",
     "explorer.confirmDelete": false,
