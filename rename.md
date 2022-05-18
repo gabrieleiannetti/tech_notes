@@ -7,3 +7,6 @@ Used on Debian so far:
 
 Example of renaming all log files:  
 `rename 's/source/target/' *.log`
+
+Replacing file extension for a given file pattern:  
+`rename "s/input.done$/input/" file_pattern*`
