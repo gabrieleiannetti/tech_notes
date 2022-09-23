@@ -11,9 +11,9 @@
 
 ## Code Analyser
 
-[Pylint](https://pypi.org/project/pylint/)  
+[pylint](https://pypi.org/project/pylint/)  
 
-## Type Checker
+## Static Type Checker
 
+[mypy](http://mypy-lang.org/) ❤️  
 [pytype](https://google.github.io/pytype/)  
-[Mypy](http://mypy-lang.org/)  
