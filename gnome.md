@@ -6,7 +6,7 @@ https://wiki.gnome.org/Design/OS/KeyboardShortcuts
 
 ## Customization Apps
 
-* Extensions
+* gnome-tweaks
 
 ## Removal of Apps
 
