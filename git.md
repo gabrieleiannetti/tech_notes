@@ -98,7 +98,7 @@ git reset --soft <commit>
 
 Create a new tag with version number and a message:
 ```
-git tag -a 1.0 -m "First stable release."
+git tag -a 1.0 -m "First stable release"
 ```
 
 Push tag to remote repository:
