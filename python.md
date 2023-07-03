@@ -22,3 +22,6 @@
 [mypy](http://mypy-lang.org/) ❤️  
 [pytype](https://google.github.io/pytype/)  
 
+## RangeSet
+
+[RangeSet](https://clustershell.readthedocs.io/en/latest/api/RangeSet.html)
