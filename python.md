@@ -5,6 +5,10 @@
 [Official Python Style Guide](https://www.python.org/dev/peps/pep-0008/)  
 [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md)  
 
+## Type Hinting
+
+[cheat_sheet_py3](https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html)
+
 ## Python Docstrings
 
 [Example Google Style Python Docstrings](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html)  
@@ -17,3 +21,4 @@
 
 [mypy](http://mypy-lang.org/) ❤️  
 [pytype](https://google.github.io/pytype/)  
+
