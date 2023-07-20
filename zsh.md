@@ -24,10 +24,9 @@ if [ "$TMUX" = "" ]; then tmux; fi
 # Change path to Golang workspace directory
 export GOPATH=~/workspace/go
 
-# Add Golang binaries to PATH
-GOBIN=~/go/bin
-PATH=$PATH:$GOBIN
-export PATH
+export PATH=$PATH:~/.local/bin/
+
+alias l='ls -lthr'
 ```
 
 The agnoster theme requires the **powerline-fonts**: https://github.com/powerline/fonts
