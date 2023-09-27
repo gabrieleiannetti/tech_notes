@@ -94,7 +94,7 @@ set colorcolumn=120
 " Highlight search matches
 set hlsearch
 
-" Use 4 spaces for tabs
+" Use 2 spaces for tabs
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 " Display indentation guides
