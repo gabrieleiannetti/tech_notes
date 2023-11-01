@@ -40,7 +40,8 @@ export PATH
         - compile executables
     - test
         - test packages
-        - cli args:
+        - args:
+            - `-c` compile the test binary to pkg.test
             - `-v` shows each test name and status (verbose)
             - `-run NAME` run tests with NAME in the function name
 
@@ -102,7 +103,6 @@ For instance: `strconv`
 ## Type Definition
 - type keyword
 - `type MyStruct struct {}`
-
 
 ## General Purpose Functions
 
