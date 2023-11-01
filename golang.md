@@ -38,12 +38,21 @@ export PATH
     - install
         - compile packages
         - compile executables
+    - mod
+        - `init project-name` initializes and writes a new go.mod file in the current directory for creating the module
+        - `tidy` adds any missing modules necessary to build the current module's packages and dependencies
     - test
         - test packages
         - args:
             - `-c` compile the test binary to pkg.test
             - `-v` shows each test name and status (verbose)
             - `-run NAME` run tests with NAME in the function name
+
+## Example for Creating a New Module
+
+ 1. `go mod init project-name`
+ 1. `go mod tidy`
+ 1. `go test -c test.go`
 
 ## Naming Conventions
 
