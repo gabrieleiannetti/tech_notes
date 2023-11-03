@@ -9,9 +9,7 @@ https://go.dev/doc/install
 ~/.zshrc
 
 ```
-# If required set GOPATH
 export GOPATH=~/workspace/go
-
 export PATH=$PATH:/usr/local/go/bin
 ```
 
