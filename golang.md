@@ -1,17 +1,18 @@
 # The Go Programming Language
 
-## Environment Variables
+## Installation
 
-### Custom Installation
+https://go.dev/doc/install
+
+### Environment Variables
 
 ~/.zshrc
 
 ```
-export GOBIN=~/go/bin
+# If required set GOPATH
 export GOPATH=~/workspace/go
 
-PATH=$PATH:$GOBIN
-export PATH
+export PATH=$PATH:/usr/local/go/bin
 ```
 
 ## Go Workspace Directories
