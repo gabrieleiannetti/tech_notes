@@ -120,3 +120,15 @@ List tags with commit message (default: 1 line):
 ```
 git tag -n
 ```
+
+## Remote
+
+Show remote URL:  
+```
+git remote -v
+```
+
+Change remote URL to SSH:  
+```
+git remote set-url origin git@github.com:...
+```
