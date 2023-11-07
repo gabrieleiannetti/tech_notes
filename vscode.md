@@ -10,9 +10,8 @@
     "editor.renderWhitespace": "boundary",
     "editor.fontSize": 16,
     "editor.rulers": [
-        120
+        80
     ],
-    "editor.wordWrapColumn": 120,
     "editor.trimAutoWhitespace": true,
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
