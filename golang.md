@@ -358,6 +358,7 @@ func main() {
 
 # Testing
 
+- run tests with `go test`
 - files should be named with `_test.go` in filename
 - `import testing` package
 - each test function should start with `Test`
