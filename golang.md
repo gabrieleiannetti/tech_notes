@@ -4,6 +4,10 @@
 
 https://go.dev/doc/install
 
+### Initializing a Project
+
+`go mod tidy` - add missing and remove unused modules
+
 ### Environment Variables
 
 ~/.zshrc
