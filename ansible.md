@@ -15,3 +15,10 @@ Plugin documentation tool `ansible-doc` e.g.:
 ## Return Values
 
 [Return Values](https://docs.ansible.com/ansible/latest/reference_appendices/common_return_values.html)
+
+## Vault
+
+* automated decryption?
+* `encrypt_string`
+
+[Vault](https://docs.ansible.com/ansible/2.9/user_guide/vault.html)
