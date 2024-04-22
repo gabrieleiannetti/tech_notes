@@ -1,4 +1,4 @@
-# Debian Installation
+# Debian
 
 ## Package Repositories
 
@@ -52,3 +52,9 @@ USER ALL=(ALL:ALL) ALL
 
 	Installing latest Firefox from unstable might also install/upgrade packages from unstable mirror.  
 	Downgrading unstable packages could be an option on system failure.
+
+## Troubleshooting
+
+### Audio
+
+https://support.system76.com/articles/audio/
