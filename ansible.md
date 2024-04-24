@@ -18,7 +18,4 @@ Plugin documentation tool `ansible-doc` e.g.:
 
 ## Vault
 
-* automated decryption?
-* `encrypt_string`
-
 [Vault](https://docs.ansible.com/ansible/2.9/user_guide/vault.html)
