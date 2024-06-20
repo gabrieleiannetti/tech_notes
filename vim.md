@@ -4,6 +4,7 @@ Content:
 * [commands](#commands)
 * [config](#config)
 * [building neovim from sources](#building-neovim-from-sources)
+* [Useful Links](#useful-links)
 
 ## Commands
 
@@ -120,3 +121,7 @@ highlight iCursor guifg=white guibg=steelblue
 1. Build: `make`
 1. Install: `sudo make install`
 1. Check executable: `which nvim`
+
+## Useful-Links
+
+* [Use Vim macros to automate frequent tasks](https://www.redhat.com/sysadmin/use-vim-macros)
