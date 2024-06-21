@@ -25,7 +25,27 @@ do
     fi
 done
 ```
+## Fork and Join with Modulo Operator
 
+```bash
+#!/bin/bash
+set -e
+
+n=139
+
+for i in {0..$n}
+do
+ 
+  if [ $((i % 7)) -eq 0 ]; then
+       echo "Waiting at index: -> ${i}"
+       wait
+  fi
+
+echo "Sleeping...(index: ${i})"
+sleep 1s &
+  
+done
+```
 
 ## Resources
 
