@@ -125,3 +125,4 @@ highlight iCursor guifg=white guibg=steelblue
 ## Useful-Links
 
 * [Use Vim macros to automate frequent tasks](https://www.redhat.com/sysadmin/use-vim-macros)
+* [Sorting columns of text in Vim using sort](https://jordanelver.co.uk/blog/2014/03/12/sorting-columnds-of-text-in-vim-using-sort/)
