@@ -132,3 +132,10 @@ Change remote URL to SSH:
 ```
 git remote set-url origin git@github.com:...
 ```
+
+## Fetch
+
+Fetch a pull request with specific ID and save it as BRANCH:
+```
+git fetch origin pull/{ID}/head:{BRANCH}
+```
