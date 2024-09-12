@@ -11,6 +11,7 @@
 ## List of Useful Add-Ons
 
 * uBlock Origin
+* Dark Reader
 
 ## Remove Language Packs
 
