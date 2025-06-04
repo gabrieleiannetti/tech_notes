@@ -30,3 +30,11 @@ CLI tool for PDF processing.
 │ x2pdf            Convert one or more files to PDF. Each file is a page.       │
 ╰───────────────────────────────────────────────────────────────────────────────╯
 ```
+
+### Examples
+
+#### Extract Pages
+
+```bash
+pdfly cat Origin.pdf START_IDX:END_IDX -o  Target.pdf
+```
